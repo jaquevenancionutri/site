@@ -295,6 +295,14 @@ export default function Index() {
             </button>
           </div>
         </div>
+
+        {/* Wave Separator to Contact */}
+        <div className="absolute bottom-0 w-full">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" transform="scale(-1, 1)" className="w-full h-auto">
+            <rect width="1000" height="100" fill="#E5B179"></rect>
+            <path fill="#F5F5F5" d="M1000 100H0V48c62.5 24 125 48 250 48 250 0 250-96 500-96 125 0 187.5 24 250 48v52z"></path>
+          </svg>
+        </div>
       </section>
 
       {/* Contact Section */}
