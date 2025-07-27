@@ -111,7 +111,7 @@ export default function Index() {
       <section className="relative bg-jaque-purple text-white py-20">
         <div className="container mx-auto px-8">
           <div className="mb-12">
-            <h2 className="text-[32px] font-normal font-['Montserrat'] mb-8">Sobre</h2>
+            <h2 className="text-[32px] font-normal mb-8">Sobre</h2>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
@@ -139,7 +139,7 @@ export default function Index() {
             {/* Right Text */}
             <div className="space-y-6">
               <p className="text-base leading-relaxed font-['Montserrat']">
-                Eu uso o poder dos chás, suplementações e outras práticas integrativas, como yoga e medicina ayurvédica, para trazer uma vida de qualidade, com sono adequado, redução de dores e até eliminação de condições crônicas como candid��ase de repetição.
+                Eu uso o poder dos chás, suplementações e outras práticas integrativas, como yoga e medicina ayurvédica, para trazer uma vida de qualidade, com sono adequado, redução de dores e até eliminação de condições crônicas como candidíase de repetição.
               </p>
               <p className="text-base leading-relaxed font-['Montserrat']">
                 Meu foco em mulheres se deu ao grande descaso que percebi ao longo da minha própria vida quando se tratava de saúde. Me sentia pouco ouvida e por muitas vezes busquei sozinha a solução para meus problemas, e isso não acontecia somente comigo, por isso passei a me dedicar às mulheres que querem ter uma vida de qualidade mas não tem apoio.
