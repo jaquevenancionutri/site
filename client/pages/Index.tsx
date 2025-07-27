@@ -138,13 +138,13 @@ export default function Index() {
 
             {/* Right Text */}
             <div className="space-y-6">
-              <p className="text-base leading-relaxed font-['Montserrat']">
+              <p className="text-base leading-relaxed">
                 Eu uso o poder dos chás, suplementações e outras práticas integrativas, como yoga e medicina ayurvédica, para trazer uma vida de qualidade, com sono adequado, redução de dores e até eliminação de condições crônicas como candidíase de repetição.
               </p>
-              <p className="text-base leading-relaxed font-['Montserrat']">
+              <p className="text-base leading-relaxed">
                 Meu foco em mulheres se deu ao grande descaso que percebi ao longo da minha própria vida quando se tratava de saúde. Me sentia pouco ouvida e por muitas vezes busquei sozinha a solução para meus problemas, e isso não acontecia somente comigo, por isso passei a me dedicar às mulheres que querem ter uma vida de qualidade mas não tem apoio.
               </p>
-              <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] font-medium font-['Montserrat']">
+              <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] font-medium">
                 Quer saber mais sobre como posso te ajudar?
               </button>
             </div>
