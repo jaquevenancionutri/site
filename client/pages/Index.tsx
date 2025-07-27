@@ -223,7 +223,7 @@ export default function Index() {
       </section>
 
       {/* Services Section */}
-      <section className="relative py-20" style={{background: 'linear-gradient(180deg, #F18C27 0%, #440F4C 62.06%)'}}>
+      <section id="services-tab" className="relative py-20" style={{background: 'linear-gradient(180deg, #F18C27 0%, #440F4C 62.06%)'}}>
         <div className="container mx-auto px-8">
           <h2 className="text-[32px] font-normal text-white  mb-12">Serviços</h2>
           
