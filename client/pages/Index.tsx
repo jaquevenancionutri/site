@@ -206,13 +206,11 @@ export default function Index() {
             {/* Right Content - Profile Photo */}
             <div className="w-1/2 flex justify-end">
               <div className="relative">
-                <div className="w-[578px] h-[578px] rounded-full border-4 border-jaque-green shadow-xl overflow-hidden">
-                  <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F8383e07c4a9b42b78712f99282959bc1?format=webp&width=800"
-                    alt="Jaqueline Venancio"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F8383e07c4a9b42b78712f99282959bc1?format=webp&width=800"
+                  alt="Jaqueline Venancio"
+                  className="w-[578px] h-[578px] object-cover"
+                />
               </div>
             </div>
           </div>
@@ -400,7 +398,7 @@ export default function Index() {
                 </div>
               </div>
               <p className="text-base text-black  leading-relaxed">
-                Minha melhor nutricionista! Comprometida com a qualidade da alimentação dos pacientes.Não passa dietas malucas. Tudo fácil de cumprir.
+                Minha melhor nutricionista! Comprometida com a qualidade da alimentaç��o dos pacientes.Não passa dietas malucas. Tudo fácil de cumprir.
               </p>
             </div>
           </div>
