@@ -367,7 +367,7 @@ export default function Index() {
       </section>
 
       {/* Contact Section */}
-      <section className="relative bg-jaque-gray py-20">
+      <section id="reach-me" className="relative bg-jaque-gray py-20">
         <div className="container mx-auto px-8">
           <h2 className="text-[32px] font-normal text-black  mb-12">Contato</h2>
           
