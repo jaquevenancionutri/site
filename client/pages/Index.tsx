@@ -287,7 +287,7 @@ export default function Index() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="relative bg-jaque-beige py-20">
+      <section id="ratings" className="relative bg-jaque-beige py-20">
         <div className="container mx-auto px-8">
           <h2 className="text-[32px] font-normal text-black  mb-4">Avaliações</h2>
           <p className="text-xl text-black  mb-12">
