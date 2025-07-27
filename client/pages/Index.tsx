@@ -183,7 +183,7 @@ export default function Index() {
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e ganho muscular como consequência de um corpo saudável, e é assim que eu trabalho hoje. Realizando um tratamento de dentro pra fora, e ouvindo cada queixa do meu paciente, afinal somos humanos e cada detalhe importa, pois nossas emoções também influenciam em como comemos e nos comportamos.
               </p>
               <p className="text-base leading-relaxed">
-                Sou formada em nutrição, e fiz pós graduação em praticas integrativas e complementares, ou seja hoje o meu trabalho vai além dos cardápios.
+                Sou formada em nutri��ão, e fiz pós graduação em praticas integrativas e complementares, ou seja hoje o meu trabalho vai além dos cardápios.
               </p>
             </div>
 
@@ -486,21 +486,27 @@ export default function Index() {
           <div className="flex items-center space-x-12">
             <h3 className="text-[32px] font-normal text-white ">Redes Sociais</h3>
             <div className="flex space-x-10">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120" 
-                alt="WhatsApp" 
-                className="w-15 h-15"
-              />
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/bd0348beb0f459f88be491a3a30a548a7bd37d9f?width=120" 
-                alt="Instagram" 
-                className="w-15 h-15"
-              />
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/533aa04f9297eb4251dd0f6dffff772ffee89e2c?width=120" 
-                alt="YouTube" 
-                className="w-15 h-15"
-              />
+              <a href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                  alt="WhatsApp"
+                  className="w-15 h-15 hover:scale-110 transition-transform"
+                />
+              </a>
+              <a href="https://www.instagram.com/nutrijaquevenancio/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/bd0348beb0f459f88be491a3a30a548a7bd37d9f?width=120"
+                  alt="Instagram"
+                  className="w-15 h-15 hover:scale-110 transition-transform"
+                />
+              </a>
+              <a href="https://www.youtube.com/@Nutrijaquevenancio" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/533aa04f9297eb4251dd0f6dffff772ffee89e2c?width=120"
+                  alt="YouTube"
+                  className="w-15 h-15 hover:scale-110 transition-transform"
+                />
+              </a>
             </div>
           </div>
         </div>
