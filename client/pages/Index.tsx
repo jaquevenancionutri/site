@@ -170,7 +170,7 @@ export default function Index() {
       </section>
 
       {/* About Section */}
-      <section className="relative bg-jaque-purple text-white py-20">
+      <section id="about-me" className="relative bg-jaque-purple text-white py-20">
         <div className="container mx-auto px-8">
           <div className="mb-12">
             <h2 className="text-[32px] font-normal mb-8">Sobre</h2>
