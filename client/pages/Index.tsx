@@ -22,7 +22,7 @@ export default function Index() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white font-montserrat">
       {/* Header */}
       <header className="w-full h-[157px] bg-jaque-purple border-b-2 border-jaque-green relative">
         <div className="container mx-auto px-8 h-full flex items-center justify-between">
