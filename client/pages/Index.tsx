@@ -101,8 +101,9 @@ export default function Index() {
 
         {/* Wave Separator */}
         <div className="absolute bottom-0 w-full">
-          <svg width="1512" height="169" viewBox="0 0 1512 169" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-            <path d="M0 73.1178C0 73.1178 420 -86.8973 751 73.1178C1082 233.133 1335.5 157.425 1512 73.1178" stroke="#6BA629" strokeWidth="3"/>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" transform="scale(-1, 1)" className="w-full h-auto">
+            <path fill="#440F4C" d="M1000 100H0V48c62.5 24 125 48 250 48 250 0 250-96 500-96 125 0 187.5 24 250 48v52z"></path>
+            <path d="M0 48c62.5 24 125 48 250 48 250 0 250-96 500-96 125 0 187.5 24 250 48" fill="none" stroke="#6BA629" strokeWidth="3"></path>
           </svg>
         </div>
       </section>
