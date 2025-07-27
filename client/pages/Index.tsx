@@ -207,9 +207,9 @@ export default function Index() {
             <div className="w-1/2 flex justify-end">
               <div className="relative">
                 <div className="w-[578px] h-[578px] rounded-full border-4 border-jaque-green shadow-xl overflow-hidden">
-                  <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/bcb57e5c493a7f8927f593b2d5222584f8fba27c?width=830" 
-                    alt="Jaqueline Venancio" 
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F8383e07c4a9b42b78712f99282959bc1?format=webp&width=800"
+                    alt="Jaqueline Venancio"
                     className="w-full h-full object-cover"
                   />
                 </div>
