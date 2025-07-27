@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom colors for the nutritionist design
+        'jaque-purple': '#440F4C',
+        'jaque-green': '#6BA629',
+        'jaque-orange': '#F18C27',
+        'jaque-beige': '#E5B179',
+        'jaque-light': '#FAFAFA',
+        'jaque-gray': '#F5F5F5',
       },
       borderRadius: {
         lg: "var(--radius)",
