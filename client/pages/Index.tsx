@@ -30,45 +30,103 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white font-montserrat">
       {/* Header */}
-      <header className="w-full bg-jaque-purple relative">
-        <div className="container mx-auto px-8 flex items-end justify-between h-[157px]">
-          {/* Logo */}
-          <div className="flex items-center pb-4">
-            <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/4506fd00cd3b5a7e70dce9d567768d7e7c1b0f43?width=510"
-              alt="Jaque Venancio Logo"
-              className="w-48 h-auto"
-            />
-          </div>
+      <header className="w-full h-[157px] bg-jaque-purple border-b-2 border-jaque-green relative">
+        <div className="relative w-full h-full">
+          {/* Logo - Absolutely positioned */}
+          <img
+            src="https://api.builder.io/api/v1/image/assets/TEMP/4506fd00cd3b5a7e70dce9d567768d7e7c1b0f43?width=510"
+            alt="Jaque Venancio Logo"
+            className="absolute left-[5%] top-0 w-48 h-[157px] object-contain"
+          />
 
-          {/* Navigation */}
-          <div className="relative">
+          {/* Navigation positioned to the right */}
+          <div className="absolute right-0 bottom-0 flex items-end justify-end">
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex space-x-0">
-              <a href="#about-me" className="no-underline">
-                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium text-sm">
-                  Sobre
+            <div className="hidden md:flex space-x-0">
+              <a href="#about-me" style={{ textDecoration: 'none' }}>
+                <div className="flex items-center justify-center" style={{
+                  width: 180,
+                  height: 40,
+                  padding: 8,
+                  background: '#6BA629',
+                  borderTopLeftRadius: 20,
+                  borderTopRightRadius: 20,
+                  gap: 8
+                }}>
+                  <div style={{
+                    color: '#FAFAFA',
+                    fontSize: 16,
+                    fontFamily: 'Montserrat',
+                    fontWeight: '500'
+                  }}>
+                    Sobre
+                  </div>
                 </div>
               </a>
-              <a href="#services-tab" className="no-underline">
-                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium text-sm">
-                  Serviços
+              <a href="#services-tab" style={{ textDecoration: 'none' }}>
+                <div className="flex items-center justify-center" style={{
+                  width: 180,
+                  height: 40,
+                  padding: 8,
+                  background: '#6BA629',
+                  borderTopLeftRadius: 20,
+                  borderTopRightRadius: 20,
+                  gap: 8
+                }}>
+                  <div style={{
+                    color: '#FAFAFA',
+                    fontSize: 16,
+                    fontFamily: 'Montserrat',
+                    fontWeight: '500'
+                  }}>
+                    Serviços
+                  </div>
                 </div>
               </a>
-              <a href="#ratings" className="no-underline">
-                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium text-sm">
-                  Avaliações
+              <a href="#ratings" style={{ textDecoration: 'none' }}>
+                <div className="flex items-center justify-center" style={{
+                  width: 180,
+                  height: 40,
+                  padding: 8,
+                  background: '#6BA629',
+                  borderTopLeftRadius: 20,
+                  borderTopRightRadius: 20,
+                  gap: 8
+                }}>
+                  <div style={{
+                    color: '#FAFAFA',
+                    fontSize: 16,
+                    fontFamily: 'Montserrat',
+                    fontWeight: '500'
+                  }}>
+                    Avaliações
+                  </div>
                 </div>
               </a>
-              <a href="#reach-me" className="no-underline">
-                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium text-sm">
-                  Contato
+              <a href="#reach-me" style={{ textDecoration: 'none' }}>
+                <div className="flex items-center justify-center" style={{
+                  width: 180,
+                  height: 40,
+                  padding: 8,
+                  background: '#6BA629',
+                  borderTopLeftRadius: 20,
+                  borderTopRightRadius: 20,
+                  gap: 8
+                }}>
+                  <div style={{
+                    color: '#FAFAFA',
+                    fontSize: 16,
+                    fontFamily: 'Montserrat',
+                    fontWeight: '500'
+                  }}>
+                    Contato
+                  </div>
                 </div>
               </a>
-            </nav>
+            </div>
 
             {/* Mobile Menu Icon */}
-            <div className="md:hidden cursor-pointer" onClick={toggleMenu}>
+            <div className="md:hidden cursor-pointer p-4" onClick={toggleMenu}>
               <div className="w-6 h-6 flex flex-col justify-center items-center">
                 <span className="block w-5 h-0.5 bg-white mb-1"></span>
                 <span className="block w-5 h-0.5 bg-white mb-1"></span>
@@ -80,24 +138,24 @@ export default function Index() {
             {isMenuOpen && (
               <div className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden" onClick={toggleMenu}>
                 <div className="absolute top-20 right-4 bg-white rounded-lg p-4 shadow-lg min-w-[200px]" onClick={(e) => e.stopPropagation()}>
-                  <a href="#about-me" onClick={toggleMenu} className="block no-underline py-2">
-                    <div className="flex items-center justify-center h-6 w-full bg-jaque-beige rounded-full text-black font-medium">
-                      Sobre
+                  <a href="#about-me" onClick={toggleMenu} style={{ textDecoration: 'none', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                    <div style={{ height: '25px', width: '90%', background: '#E5B179', borderRadius: 20, justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                      <div style={{ color: '#000', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500' }}>Sobre</div>
                     </div>
                   </a>
-                  <a href="#services-tab" onClick={toggleMenu} className="block no-underline py-2">
-                    <div className="flex items-center justify-center h-6 w-full bg-jaque-beige rounded-full text-black font-medium">
-                      Serviços
+                  <a href="#services-tab" onClick={toggleMenu} style={{ textDecoration: 'none', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                    <div style={{ height: '25px', width: '90%', marginTop: '7px', background: '#E5B179', borderRadius: 20, justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                      <div style={{ color: '#000', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500' }}>Serviços</div>
                     </div>
                   </a>
-                  <a href="#ratings" onClick={toggleMenu} className="block no-underline py-2">
-                    <div className="flex items-center justify-center h-6 w-full bg-jaque-beige rounded-full text-black font-medium">
-                      Avaliações
+                  <a href="#ratings" onClick={toggleMenu} style={{ textDecoration: 'none', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                    <div style={{ height: '25px', width: '90%', marginTop: '7px', background: '#E5B179', borderRadius: 20, justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                      <div style={{ color: '#000', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500' }}>Avaliações</div>
                     </div>
                   </a>
-                  <a href="#reach-me" onClick={toggleMenu} className="block no-underline py-2">
-                    <div className="flex items-center justify-center h-6 w-full bg-jaque-beige rounded-full text-black font-medium">
-                      Contato
+                  <a href="#reach-me" onClick={toggleMenu} style={{ textDecoration: 'none', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                    <div style={{ height: '25px', width: '90%', marginTop: '7px', background: '#E5B179', borderRadius: 20, justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+                      <div style={{ color: '#000', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500' }}>Contato</div>
                     </div>
                   </a>
                 </div>
