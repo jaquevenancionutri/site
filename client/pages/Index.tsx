@@ -155,7 +155,7 @@ export default function Index() {
       {/* Services Section */}
       <section className="relative py-20" style={{background: 'linear-gradient(180deg, #F18C27 0%, #440F4C 62.06%)'}}>
         <div className="container mx-auto px-8">
-          <h2 className="text-[32px] font-normal text-white font-['Montserrat'] mb-12">Serviços</h2>
+          <h2 className="text-[32px] font-normal text-white  mb-12">Serviços</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Atendimento Personalizado Card */}
@@ -167,10 +167,10 @@ export default function Index() {
                   className="w-full h-full object-cover rounded-[20px] border border-white"
                 />
               </div>
-              <h3 className="text-xl font-normal text-black font-['Montserrat'] mb-4">
+              <h3 className="text-xl font-normal text-black  mb-4">
                 Atendimento personalizado
               </h3>
-              <p className="text-base text-black font-['Montserrat'] mb-6">
+              <p className="text-base text-black  mb-6">
                 Você pode ter meu acompanhamento nutricional ou tirar suas dúvidas a respeito clicando aqui:
               </p>
               <img 
@@ -189,14 +189,14 @@ export default function Index() {
                   className="w-full h-full object-cover rounded-[20px]"
                 />
               </div>
-              <h3 className="text-xl font-normal text-black font-['Montserrat'] mb-4">
+              <h3 className="text-xl font-normal text-black  mb-4">
                 Yoga
               </h3>
               <div className="flex items-end justify-center mb-6">
-                <p className="text-base text-black font-['Montserrat'] flex-1">
+                <p className="text-base text-black  flex-1">
                   Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber
                 </p>
-                <span className="text-sm text-gray-500 font-['Montserrat'] ml-2">mais</span>
+                <span className="text-sm text-gray-500  ml-2">mais</span>
               </div>
               <img 
                 src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120" 
@@ -211,8 +211,8 @@ export default function Index() {
       {/* Testimonials Section */}
       <section className="relative bg-jaque-beige py-20">
         <div className="container mx-auto px-8">
-          <h2 className="text-[32px] font-normal text-black font-['Montserrat'] mb-4">Avaliações</h2>
-          <p className="text-xl text-black font-['Montserrat'] mb-12">
+          <h2 className="text-[32px] font-normal text-black  mb-4">Avaliações</h2>
+          <p className="text-xl text-black  mb-12">
             Veja alguns depoimentos de pacientes:
           </p>
 
@@ -220,7 +220,7 @@ export default function Index() {
             {/* Testimonial 1 */}
             <div className="space-y-4">
               <div>
-                <h4 className="text-xl text-black font-['Montserrat'] mb-2">Thais Sales</h4>
+                <h4 className="text-xl text-black  mb-2">Thais Sales</h4>
                 <div className="flex space-x-1">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -229,7 +229,7 @@ export default function Index() {
                   ))}
                 </div>
               </div>
-              <p className="text-base text-black font-['Montserrat'] leading-relaxed">
+              <p className="text-base text-black  leading-relaxed">
                 A melhor nutricionista que ja fui, como pessoa a cima do peso, não é somente a comida que faz mal e a Jaque entendi disso e ajuda a entender muitas coisas, ensina qual alimentação no momento faz bem, muito obrigada pelo ótimo atendimento. Perfeita e indico sempre!
               </p>
             </div>
@@ -237,7 +237,7 @@ export default function Index() {
             {/* Testimonial 2 */}
             <div className="space-y-4">
               <div>
-                <h4 className="text-xl text-black font-['Montserrat'] mb-2">Oliveira Domingos Aguiar</h4>
+                <h4 className="text-xl text-black  mb-2">Oliveira Domingos Aguiar</h4>
                 <div className="flex space-x-1">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -246,7 +246,7 @@ export default function Index() {
                   ))}
                 </div>
               </div>
-              <p className="text-base text-black font-['Montserrat'] leading-relaxed">
+              <p className="text-base text-black  leading-relaxed">
                 Nutricionista top! Me ajudou em meu propósito sem fazer dietas mirabolantes ou cortes extremos de alimentação. Ela acompanha de perto e tira todas às dúvidas de forma simples e de fácil compreensão.
               </p>
             </div>
@@ -254,7 +254,7 @@ export default function Index() {
             {/* Testimonial 3 */}
             <div className="space-y-4">
               <div>
-                <h4 className="text-xl text-black font-['Montserrat'] mb-2">Thais Miranda De Oliveira</h4>
+                <h4 className="text-xl text-black  mb-2">Thais Miranda De Oliveira</h4>
                 <div className="flex space-x-1">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -263,17 +263,17 @@ export default function Index() {
                   ))}
                 </div>
               </div>
-              <p className="text-base text-black font-['Montserrat'] leading-relaxed">
+              <p className="text-base text-black  leading-relaxed">
                 Minha melhor nutricionista! Comprometida com a qualidade da alimentação dos pacientes.Não passa dietas malucas. Tudo fácil de cumprir.
               </p>
             </div>
           </div>
 
           <div className="flex space-x-4">
-            <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium font-['Montserrat']">
+            <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
               Ver mais
             </button>
-            <button className="bg-jaque-orange text-white px-8 py-2 rounded-[20px] font-medium font-['Montserrat']">
+            <button className="bg-jaque-orange text-white px-8 py-2 rounded-[20px] font-medium ">
               Avaliar
             </button>
           </div>
@@ -283,59 +283,59 @@ export default function Index() {
       {/* Contact Section */}
       <section className="relative bg-jaque-gray py-20">
         <div className="container mx-auto px-8">
-          <h2 className="text-[32px] font-normal text-black font-['Montserrat'] mb-12">Contato</h2>
+          <h2 className="text-[32px] font-normal text-black  mb-12">Contato</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label className="block text-base text-black font-['Montserrat'] mb-2">Nome</label>
+                  <label className="block text-base text-black  mb-2">Nome</label>
                   <input
                     type="text"
                     name="name"
                     value={formData.name}
                     onChange={handleInputChange}
                     placeholder="Digite seu nome"
-                    className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white font-['Montserrat']"
+                    className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white "
                   />
                 </div>
                 <div>
-                  <label className="block text-base text-black font-['Montserrat'] mb-2">Telefone</label>
+                  <label className="block text-base text-black  mb-2">Telefone</label>
                   <input
                     type="tel"
                     name="phone"
                     value={formData.phone}
                     onChange={handleInputChange}
                     placeholder="Digite seu telefone"
-                    className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white font-['Montserrat']"
+                    className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white "
                   />
                 </div>
                 <div>
-                  <label className="block text-base text-black font-['Montserrat'] mb-2">E-mail</label>
+                  <label className="block text-base text-black  mb-2">E-mail</label>
                   <input
                     type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
                     placeholder="Digite seu e-mail"
-                    className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white font-['Montserrat']"
+                    className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white "
                   />
                 </div>
                 <div>
-                  <label className="block text-base text-black font-['Montserrat'] mb-2">Mensagem</label>
+                  <label className="block text-base text-black  mb-2">Mensagem</label>
                   <textarea
                     name="message"
                     value={formData.message}
                     onChange={handleInputChange}
                     placeholder="Digite sua mensagem"
                     rows={6}
-                    className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white font-['Montserrat'] resize-none"
+                    className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white  resize-none"
                   />
                 </div>
                 <button
                   type="submit"
-                  className="bg-jaque-orange text-white px-6 py-3 rounded-[20px] font-medium font-['Montserrat']"
+                  className="bg-jaque-orange text-white px-6 py-3 rounded-[20px] font-medium "
                 >
                   Enviar mensagem
                 </button>
@@ -349,14 +349,14 @@ export default function Index() {
                   <path d="M5 5H25C26.375 5 27.5 6.125 27.5 7.5V22.5C27.5 23.875 26.375 25 25 25H5C3.625 25 2.5 23.875 2.5 22.5V7.5C2.5 6.125 3.625 5 5 5Z" stroke="#F18C27" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M27.5 7.5L15 16.25L2.5 7.5" stroke="#F18C27" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <p className="text-base text-black font-['Montserrat']">jaquevenancio.nutri@gmail.com</p>
+                <p className="text-base text-black ">jaquevenancio.nutri@gmail.com</p>
               </div>
 
               <div className="flex flex-col items-center text-center space-y-2">
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M27.4998 21.15V24.9C27.5012 25.2481 27.4299 25.5927 27.2904 25.9117C27.151 26.2307 26.9464 26.517 26.6899 26.7523C26.4334 26.9877 26.1305 27.1669 25.8007 27.2784C25.4709 27.3899 25.1215 27.4313 24.7748 27.4C20.9283 26.9821 17.2335 25.6677 13.9873 23.5625C10.9671 21.6433 8.40646 19.0827 6.48729 16.0625C4.37477 12.8015 3.0601 9.08874 2.64979 5.225C2.61856 4.87933 2.65964 4.53095 2.77042 4.20203C2.8812 3.87311 3.05926 3.57086 3.29325 3.31453C3.52725 3.05819 3.81205 2.85339 4.12953 2.71315C4.44702 2.57292 4.79022 2.50033 5.13729 2.5H8.88729C9.49393 2.49403 10.082 2.70885 10.542 3.10441C11.002 3.49998 11.3024 4.04931 11.3873 4.65C11.5456 5.85008 11.8391 7.02841 12.2623 8.1625C12.4305 8.6099 12.4669 9.09614 12.3672 9.5636C12.2675 10.0311 12.0359 10.4601 11.6998 10.8L10.1123 12.3875C11.8917 15.5169 14.4829 18.1081 17.6123 19.8875L19.1998 18.3C19.5397 17.9639 19.9687 17.7323 20.4362 17.6326C20.9037 17.5329 21.3899 17.5693 21.8373 17.7375C22.9714 18.1607 24.1497 18.4542 25.3498 18.6125C25.957 18.6982 26.5115 19.004 26.908 19.4719C27.3044 19.9397 27.515 20.537 27.4998 21.15Z" stroke="#F18C27" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <p className="text-base text-black font-['Montserrat']">(61) 98195-6980</p>
+                <p className="text-base text-black ">(61) 98195-6980</p>
               </div>
 
               <div className="flex flex-col items-center text-center space-y-4">
@@ -366,10 +366,10 @@ export default function Index() {
                   <path d="M20 7.5V27.5" stroke="#F18C27" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
                 <div className="space-y-2">
-                  <p className="text-base text-black font-['Montserrat']">
+                  <p className="text-base text-black ">
                     <span className="font-medium">Atendimentos online</span> para brasileiros em qualquer lugar do mundo.
                   </p>
-                  <p className="text-base text-black font-['Montserrat']">
+                  <p className="text-base text-black ">
                     <span className="font-medium">Atendimento presencial:</span> Centro Clínico Life Gama, sala 519 - Setor central do gama
                   </p>
                 </div>
@@ -398,7 +398,7 @@ export default function Index() {
       <footer className="bg-jaque-purple py-12">
         <div className="container mx-auto px-8">
           <div className="flex items-center space-x-12">
-            <h3 className="text-[32px] font-normal text-white font-['Montserrat']">Redes Sociais</h3>
+            <h3 className="text-[32px] font-normal text-white ">Redes Sociais</h3>
             <div className="flex space-x-10">
               <img 
                 src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120" 
