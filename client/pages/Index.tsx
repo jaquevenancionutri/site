@@ -30,38 +30,38 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white font-montserrat">
       {/* Header */}
-      <header className="w-full h-[157px] bg-jaque-purple border-b-2 border-jaque-green relative">
-        <div className="container mx-auto px-8 h-full flex items-center justify-between">
+      <header className="w-full bg-jaque-purple relative">
+        <div className="container mx-auto px-8 flex items-end justify-between h-[157px]">
           {/* Logo */}
-          <div className="flex items-center">
-            <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/4506fd00cd3b5a7e70dce9d567768d7e7c1b0f43?width=510" 
-              alt="Jaque Venancio Logo" 
+          <div className="flex items-center pb-4">
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/4506fd00cd3b5a7e70dce9d567768d7e7c1b0f43?width=510"
+              alt="Jaque Venancio Logo"
               className="w-48 h-auto"
             />
           </div>
-          
+
           {/* Navigation */}
           <div className="relative">
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-0">
               <a href="#about-me" className="no-underline">
-                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium">
+                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium text-sm">
                   Sobre
                 </div>
               </a>
               <a href="#services-tab" className="no-underline">
-                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium">
+                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium text-sm">
                   Serviços
                 </div>
               </a>
               <a href="#ratings" className="no-underline">
-                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium">
+                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium text-sm">
                   Avaliações
                 </div>
               </a>
               <a href="#reach-me" className="no-underline">
-                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium">
+                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium text-sm">
                   Contato
                 </div>
               </a>
@@ -183,7 +183,7 @@ export default function Index() {
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e ganho muscular como consequência de um corpo saudável, e é assim que eu trabalho hoje. Realizando um tratamento de dentro pra fora, e ouvindo cada queixa do meu paciente, afinal somos humanos e cada detalhe importa, pois nossas emoções também influenciam em como comemos e nos comportamos.
               </p>
               <p className="text-base leading-relaxed">
-                Sou formada em nutri��ão, e fiz pós graduação em praticas integrativas e complementares, ou seja hoje o meu trabalho vai além dos cardápios.
+                Sou formada em nutrição, e fiz pós graduação em praticas integrativas e complementares, ou seja hoje o meu trabalho vai além dos cardápios.
               </p>
             </div>
 
