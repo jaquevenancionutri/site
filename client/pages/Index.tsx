@@ -42,13 +42,68 @@ export default function Index() {
           </div>
           
           {/* Navigation */}
-          <nav className="flex space-x-0">
-            {["Sobre", "Serviços", "Avaliações", "Contato"].map((item) => (
-              <div key={item} className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium">
-                {item}
+          <div className="relative">
+            {/* Desktop Navigation */}
+            <nav className="hidden md:flex space-x-0">
+              <a href="#about-me" className="no-underline">
+                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium">
+                  Sobre
+                </div>
+              </a>
+              <a href="#services-tab" className="no-underline">
+                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium">
+                  Serviços
+                </div>
+              </a>
+              <a href="#ratings" className="no-underline">
+                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium">
+                  Avaliações
+                </div>
+              </a>
+              <a href="#reach-me" className="no-underline">
+                <div className="flex items-center h-10 px-6 bg-jaque-green rounded-t-[20px] text-white font-medium">
+                  Contato
+                </div>
+              </a>
+            </nav>
+
+            {/* Mobile Menu Icon */}
+            <div className="md:hidden cursor-pointer" onClick={toggleMenu}>
+              <div className="w-6 h-6 flex flex-col justify-center items-center">
+                <span className="block w-5 h-0.5 bg-white mb-1"></span>
+                <span className="block w-5 h-0.5 bg-white mb-1"></span>
+                <span className="block w-5 h-0.5 bg-white"></span>
               </div>
-            ))}
-          </nav>
+            </div>
+
+            {/* Mobile Dropdown Menu */}
+            {isMenuOpen && (
+              <div className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden" onClick={toggleMenu}>
+                <div className="absolute top-20 right-4 bg-white rounded-lg p-4 shadow-lg min-w-[200px]" onClick={(e) => e.stopPropagation()}>
+                  <a href="#about-me" onClick={toggleMenu} className="block no-underline py-2">
+                    <div className="flex items-center justify-center h-6 w-full bg-jaque-beige rounded-full text-black font-medium">
+                      Sobre
+                    </div>
+                  </a>
+                  <a href="#services-tab" onClick={toggleMenu} className="block no-underline py-2">
+                    <div className="flex items-center justify-center h-6 w-full bg-jaque-beige rounded-full text-black font-medium">
+                      Serviços
+                    </div>
+                  </a>
+                  <a href="#ratings" onClick={toggleMenu} className="block no-underline py-2">
+                    <div className="flex items-center justify-center h-6 w-full bg-jaque-beige rounded-full text-black font-medium">
+                      Avaliações
+                    </div>
+                  </a>
+                  <a href="#reach-me" onClick={toggleMenu} className="block no-underline py-2">
+                    <div className="flex items-center justify-center h-6 w-full bg-jaque-beige rounded-full text-black font-medium">
+                      Contato
+                    </div>
+                  </a>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </header>
 
@@ -128,7 +183,7 @@ export default function Index() {
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e ganho muscular como consequência de um corpo saudável, e é assim que eu trabalho hoje. Realizando um tratamento de dentro pra fora, e ouvindo cada queixa do meu paciente, afinal somos humanos e cada detalhe importa, pois nossas emoções também influenciam em como comemos e nos comportamos.
               </p>
               <p className="text-base leading-relaxed">
-                Sou formada em nutrição, e fiz pós gradua��ão em praticas integrativas e complementares, ou seja hoje o meu trabalho vai além dos cardápios.
+                Sou formada em nutrição, e fiz pós graduação em praticas integrativas e complementares, ou seja hoje o meu trabalho vai além dos cardápios.
               </p>
             </div>
 
