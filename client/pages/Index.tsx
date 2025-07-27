@@ -62,10 +62,10 @@ export default function Index() {
             {/* Left Content */}
             <div className="w-1/2 space-y-6">
               <div className="space-y-2">
-                <h1 className="text-[32px] font-normal text-gray-800 font-['Montserrat']">
+                <h1 className="text-[32px] font-normal text-gray-800">
                   Nutricionista
                 </h1>
-                <h2 className="text-[32px] font-normal text-gray-700 font-['Montserrat']">
+                <h2 className="text-[32px] font-normal text-gray-700">
                   Jaqueline Venancio
                 </h2>
               </div>
