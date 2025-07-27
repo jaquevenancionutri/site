@@ -71,10 +71,10 @@ export default function Index() {
               </div>
               
               <div className="space-y-4">
-                <h3 className="text-xl font-normal text-gray-600 font-['Montserrat']">
+                <h3 className="text-xl font-normal text-gray-600">
                   Descubra o poder de tratamentos naturais para desinflamação e saúde da mulher!
                 </h3>
-                <p className="text-base leading-relaxed text-gray-800 font-['Montserrat'] text-justify">
+                <p className="text-base leading-relaxed text-gray-800 text-justify">
                   Olá! Eu sou a Jaqueline Venancio, nutricionista a mais de 5 anos, e hoje especializada em ajudar mulheres a desinflamarem seus corpos, e nunca mais sentirem cólicas de um parto, sensação constante de barriga inchada, dores constantes, fadiga mental, e outros problemas relacionados a inflamações crônicas.
                 </p>
               </div>
