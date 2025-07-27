@@ -108,12 +108,12 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-white pt-16 pb-20">
+      <section className="relative bg-white pb-20">
         {/* Hero Background Image */}
-        <div className="absolute top-[157px] left-0 w-full h-[844px]">
-          <img 
-            src="https://api.builder.io/api/v1/image/assets/TEMP/059d82c2944f2997140de6d2d4439352eb3d64c0?width=3024" 
-            alt="Background" 
+        <div className="absolute top-0 left-0 w-full h-[844px]">
+          <img
+            src="https://api.builder.io/api/v1/image/assets/TEMP/059d82c2944f2997140de6d2d4439352eb3d64c0?width=3024"
+            alt="Background"
             className="w-full h-full object-cover"
           />
         </div>
