@@ -118,7 +118,7 @@ export default function Index() {
           />
         </div>
 
-        <div className="container mx-auto px-8 relative z-10">
+        <div className="container mx-auto px-8 relative z-10 pt-16">
           <div className="flex items-center justify-between">
             {/* Left Content */}
             <div className="w-1/2 space-y-6">
