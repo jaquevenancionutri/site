@@ -203,7 +203,7 @@ export default function Index() {
               </h3>
               <div className="flex items-end justify-center mb-6">
                 <p className="text-base text-black  flex-1">
-                  Al��m do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber
+                  Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber
                 </p>
                 <span className="text-sm text-gray-500  ml-2">mais</span>
               </div>
@@ -214,6 +214,14 @@ export default function Index() {
               />
             </div>
           </div>
+        </div>
+
+        {/* Wave Separator to Testimonials */}
+        <div className="absolute bottom-0 w-full">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" transform="scale(-1, 1)" className="w-full h-auto">
+            <rect width="1000" height="100" fill="#440F4C"></rect>
+            <path fill="#E5B179" d="M1000 100H0V48c62.5 24 125 48 250 48 250 0 250-96 500-96 125 0 187.5 24 250 48v52z"></path>
+          </svg>
         </div>
       </section>
 
