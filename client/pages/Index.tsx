@@ -8,6 +8,8 @@ export default function Index() {
     message: ""
   });
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
@@ -19,6 +21,10 @@ export default function Index() {
     e.preventDefault();
     // Handle form submission
     console.log("Form submitted:", formData);
+  };
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
@@ -122,7 +128,7 @@ export default function Index() {
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e ganho muscular como consequência de um corpo saudável, e é assim que eu trabalho hoje. Realizando um tratamento de dentro pra fora, e ouvindo cada queixa do meu paciente, afinal somos humanos e cada detalhe importa, pois nossas emoções também influenciam em como comemos e nos comportamos.
               </p>
               <p className="text-base leading-relaxed">
-                Sou formada em nutrição, e fiz pós graduação em praticas integrativas e complementares, ou seja hoje o meu trabalho vai além dos cardápios.
+                Sou formada em nutrição, e fiz pós gradua��ão em praticas integrativas e complementares, ou seja hoje o meu trabalho vai além dos cardápios.
               </p>
             </div>
 
