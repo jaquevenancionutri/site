@@ -366,7 +366,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator */}
-        <div className="absolute -bottom-6 w-full">
+        <div className="absolute -bottom-24 w-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
@@ -850,7 +850,7 @@ export default function Index() {
                   </p>
                   <p className="text-base text-black ">
                     <span className="font-medium">Atendimento presencial:</span>{" "}
-                    Centro Cl��nico Life Gama, sala 519 - Setor central do gama
+                    Centro Clínico Life Gama, sala 519 - Setor central do gama
                   </p>
                 </div>
 
