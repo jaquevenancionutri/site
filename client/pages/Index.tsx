@@ -450,7 +450,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator to Services */}
-        <div className="absolute -bottom-20 w-full">
+        <div className="absolute -bottom-24 w-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
