@@ -41,8 +41,8 @@ export default function Index() {
             className="absolute left-[5%] top-0 w-48 h-[157px] object-contain"
           />
 
-          {/* Navigation positioned to the right */}
-          <div className="absolute right-0 bottom-0 flex items-end justify-end">
+          {/* Navigation centered */}
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex items-end justify-center">
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
               <a href="#about-me" style={{ textDecoration: "none" }}>
