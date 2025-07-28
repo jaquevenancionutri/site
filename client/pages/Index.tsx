@@ -515,8 +515,8 @@ export default function Index() {
               <h3 className="text-xl font-normal text-black  mb-4">Yoga</h3>
               <div className="flex items-end justify-center mb-6">
                 <p className="text-base text-black  flex-1">
-                  Além do acompanhamento nutricional, eu tamb��m ofereço aulas de
-                  yoga relaxante, que auxilia os processos de compulsão
+                  Além do acompanhamento nutricional, eu tamb��m ofereço aulas
+                  de yoga relaxante, que auxilia os processos de compulsão
                   alimentar e também ajuda a ter mais consciência corporal, e
                   também controle emocional, as praticas podem ser online ou
                   presencial, clique aqui para saber
@@ -550,7 +550,10 @@ export default function Index() {
       </section>
 
       {/* Testimonials Section */}
-      <section id="ratings" className="relative mt-24 bg-jaque-beige pt-4 pb-20">
+      <section
+        id="ratings"
+        className="relative mt-24 bg-jaque-beige pt-4 pb-20"
+      >
         <div className="container mx-auto px-8">
           <h2 className="text-[32px] font-normal text-black  mb-4">
             Avaliações
