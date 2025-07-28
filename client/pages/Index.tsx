@@ -469,7 +469,7 @@ export default function Index() {
       {/* Services Section */}
       <section
         id="services-tab"
-        className="relative mt-16 pt-4 pb-20"
+        className="relative mt-24 pt-4 pb-20"
         style={{
           background: "linear-gradient(180deg, #F18C27 0%, #440F4C 62.06%)",
         }}
@@ -850,7 +850,7 @@ export default function Index() {
                   </p>
                   <p className="text-base text-black ">
                     <span className="font-medium">Atendimento presencial:</span>{" "}
-                    Centro Clínico Life Gama, sala 519 - Setor central do gama
+                    Centro Cl��nico Life Gama, sala 519 - Setor central do gama
                   </p>
                 </div>
 
