@@ -469,7 +469,7 @@ export default function Index() {
       {/* Services Section */}
       <section
         id="services-tab"
-        className="relative mt-16 pt-4 pb-20"
+        className="relative mt-20 pt-4 pb-20"
         style={{
           background: "linear-gradient(180deg, #F18C27 0%, #440F4C 62.06%)",
         }}
