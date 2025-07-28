@@ -49,7 +49,7 @@ export default function Index() {
                 <div
                   className="flex items-center justify-center"
                   style={{
-                    width: 180,
+                    width: 160,
                     height: 40,
                     padding: 8,
                     background: "#6BA629",
@@ -74,7 +74,7 @@ export default function Index() {
                 <div
                   className="flex items-center justify-center"
                   style={{
-                    width: 180,
+                    width: 160,
                     height: 40,
                     padding: 8,
                     background: "#6BA629",
@@ -99,7 +99,7 @@ export default function Index() {
                 <div
                   className="flex items-center justify-center"
                   style={{
-                    width: 180,
+                    width: 160,
                     height: 40,
                     padding: 8,
                     background: "#6BA629",
@@ -124,7 +124,7 @@ export default function Index() {
                 <div
                   className="flex items-center justify-center"
                   style={{
-                    width: 180,
+                    width: 160,
                     height: 40,
                     padding: 8,
                     background: "#6BA629",
