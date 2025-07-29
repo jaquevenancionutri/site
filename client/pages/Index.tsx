@@ -32,13 +32,13 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white font-montserrat">
       {/* Header */}
-      <header className="w-full h-[157px] bg-jaque-purple border-b-2 border-jaque-green relative">
+      <header className="w-full h-[72px] md:h-[157px] bg-jaque-purple border-b border-jaque-green md:border-b-2 relative">
         <div className="relative w-full h-full">
           {/* Logo - Absolutely positioned */}
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/4506fd00cd3b5a7e70dce9d567768d7e7c1b0f43?width=510"
             alt="Jaque Venancio Logo"
-            className="absolute left-[5%] top-0 w-48 h-[157px] object-contain"
+            className="absolute left-[5%] top-0 w-24 h-16 md:w-48 md:h-[157px] object-contain"
           />
 
           {/* Navigation centered */}
@@ -925,7 +925,7 @@ export default function Index() {
                   </p>
                   <p className="text-base text-black ">
                     <span className="font-medium">Atendimento presencial:</span>{" "}
-                    Centro Clínico Life Gama, sala 519 - Setor central do gama
+                    Centro Cl��nico Life Gama, sala 519 - Setor central do gama
                   </p>
                 </div>
 
