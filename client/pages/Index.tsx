@@ -399,9 +399,40 @@ export default function Index() {
             <h2 className="text-[32px] font-normal mb-8">Sobre</h2>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
-            {/* Left Text */}
-            <div className="space-y-6">
+          <div className="flex flex-col space-y-8 lg:grid lg:grid-cols-3 lg:gap-12 lg:items-center lg:space-y-0">
+            {/* Mobile: Single column text */}
+            <div className="lg:hidden space-y-6">
+              <p className="text-base leading-relaxed">
+                Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
+                ganho muscular como consequência de um corpo saudável, e é assim
+                que eu trabalho hoje. Realizando um tratamento de dentro pra
+                fora, e ouvindo cada queixa do meu paciente, afinal somos
+                humanos e cada detalhe importa, pois nossas emoções também
+                influenciam em como comemos e nos comportamos.
+              </p>
+              <p className="text-base leading-relaxed">
+                Sou formada em nutrição, e fiz pós graduação em praticas
+                integrativas e complementares, ou seja hoje o meu trabalho vai
+                além dos cardápios.
+              </p>
+              <p className="text-base leading-relaxed">
+                Eu uso o poder dos chás, suplementações e outras práticas
+                integrativas, como yoga e medicina ayurvédica, para trazer uma
+                vida de qualidade, com sono adequado, redução de dores e até
+                eliminação de condições crônicas como candidíase de repetição.
+              </p>
+              <p className="text-base leading-relaxed">
+                Meu foco em mulheres se deu ao grande descaso que percebi ao
+                longo da minha própria vida quando se tratava de saúde. Me
+                sentia pouco ouvida e por muitas vezes busquei sozinha a solução
+                para meus problemas, e isso não acontecia somente comigo, por
+                isso passei a me dedicar às mulheres que querem ter uma vida de
+                qualidade mas não tem apoio.
+              </p>
+            </div>
+
+            {/* Desktop: Left Text */}
+            <div className="hidden lg:block space-y-6">
               <p className="text-base leading-relaxed">
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
                 ganho muscular como consequência de um corpo saudável, e é assim
@@ -419,7 +450,7 @@ export default function Index() {
 
             {/* Center Image */}
             <div className="flex justify-center">
-              <div className="w-[405px] h-[451px] flex justify-center items-center">
+              <div className="w-[300px] h-[300px] lg:w-[405px] lg:h-[451px] flex justify-center items-center">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2Fbd71837e910b4cdab2efd801b03a906f?format=webp&width=800"
                   alt="Jaqueline Venancio"
@@ -428,8 +459,8 @@ export default function Index() {
               </div>
             </div>
 
-            {/* Right Text */}
-            <div className="space-y-6">
+            {/* Desktop: Right Text */}
+            <div className="hidden lg:block space-y-6">
               <p className="text-base leading-relaxed">
                 Eu uso o poder dos chás, suplementações e outras práticas
                 integrativas, como yoga e medicina ayurvédica, para trazer uma
@@ -444,6 +475,13 @@ export default function Index() {
                 isso passei a me dedicar às mulheres que querem ter uma vida de
                 qualidade mas não tem apoio.
               </p>
+              <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] font-medium">
+                Quer saber mais sobre como posso te ajudar?
+              </button>
+            </div>
+
+            {/* Mobile: Button */}
+            <div className="lg:hidden flex justify-center">
               <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] font-medium">
                 Quer saber mais sobre como posso te ajudar?
               </button>
