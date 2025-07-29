@@ -320,7 +320,7 @@ export default function Index() {
         </div>
 
         <div className="container mx-auto px-8 relative z-10 pt-16">
-          <div className="flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-8">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
             {/* Content */}
             <div className="w-full md:w-1/2 space-y-6">
               <div className="space-y-2">
