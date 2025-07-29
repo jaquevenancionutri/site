@@ -417,11 +417,11 @@ export default function Index() {
 
             {/* Center Image */}
             <div className="flex justify-center">
-              <div className="w-[405px] h-[451px] rounded-lg overflow-hidden border-2 border-jaque-orange">
+              <div className="w-[405px] h-[451px] flex justify-center items-center">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/902e5ef4b13da15674d1c62eeb7b5d3be0e21787?width=830"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2Fbd71837e910b4cdab2efd801b03a906f?format=webp&width=800"
                   alt="Jaqueline Venancio"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
