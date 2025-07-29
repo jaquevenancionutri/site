@@ -320,9 +320,9 @@ export default function Index() {
         </div>
 
         <div className="container mx-auto px-8 relative z-10 pt-16">
-          <div className="flex items-center justify-between">
-            {/* Left Content */}
-            <div className="w-1/2 space-y-6">
+          <div className="flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-8">
+            {/* Content */}
+            <div className="w-full md:w-1/2 space-y-6">
               <div className="space-y-2">
                 <h1 className="text-[32px] font-normal text-gray-800">
                   Nutricionista
@@ -401,7 +401,7 @@ export default function Index() {
             {/* Left Text */}
             <div className="space-y-6">
               <p className="text-base leading-relaxed">
-                Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
+                Enquanto eu cursava nutriç��o, eu sempre via o emagrecimento e
                 ganho muscular como consequência de um corpo saudável, e é assim
                 que eu trabalho hoje. Realizando um tratamento de dentro pra
                 fora, e ouvindo cada queixa do meu paciente, afinal somos
