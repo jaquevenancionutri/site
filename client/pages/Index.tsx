@@ -148,11 +148,11 @@ export default function Index() {
             </div>
 
             {/* Mobile Menu Icon */}
-            <div className="md:hidden cursor-pointer p-4" onClick={toggleMenu}>
-              <div className="w-6 h-6 flex flex-col justify-center items-center">
-                <span className="block w-5 h-0.5 bg-white mb-1"></span>
-                <span className="block w-5 h-0.5 bg-white mb-1"></span>
-                <span className="block w-5 h-0.5 bg-white"></span>
+            <div className="md:hidden absolute right-4 top-4 cursor-pointer" onClick={toggleMenu}>
+              <div className="w-10 h-10 flex flex-col justify-center items-center">
+                <span className="block w-8 h-0.5 bg-white mb-1"></span>
+                <span className="block w-8 h-0.5 bg-white mb-1"></span>
+                <span className="block w-8 h-0.5 bg-white"></span>
               </div>
             </div>
 
@@ -925,7 +925,7 @@ export default function Index() {
                   </p>
                   <p className="text-base text-black ">
                     <span className="font-medium">Atendimento presencial:</span>{" "}
-                    Centro Cl��nico Life Gama, sala 519 - Setor central do gama
+                    Centro Clínico Life Gama, sala 519 - Setor central do gama
                   </p>
                 </div>
 
