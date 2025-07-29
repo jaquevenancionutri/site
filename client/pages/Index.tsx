@@ -325,11 +325,11 @@ export default function Index() {
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F5d382a995f684fa49eb998a822eba4e6?format=webp&width=800"
             alt="Background"
-            className="block md:hidden w-full h-full object-cover scale-110"
+            className="block md:hidden w-full h-full object-cover"
           />
         </div>
 
-        <div className="container mx-auto px-8 relative z-10 pt-16">
+        <div className="container mx-auto px-8 relative z-10 pt-4 md:pt-16">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
             {/* Content */}
             <div className="w-full md:w-1/2 space-y-6">
@@ -371,7 +371,7 @@ export default function Index() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F8383e07c4a9b42b78712f99282959bc1?format=webp&width=800"
                   alt="Jaqueline Venancio"
-                  className="w-[250px] h-[250px] md:w-[578px] md:h-[578px] object-cover"
+                  className="w-[300px] h-[300px] md:w-[578px] md:h-[578px] object-cover"
                 />
               </div>
             </div>
