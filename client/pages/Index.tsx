@@ -543,8 +543,8 @@ export default function Index() {
               />
             </div>
 
-            {/* Yoga Card */}
-            <div className="bg-white rounded-[20px] p-6 flex flex-col items-center text-center">
+            {/* Yoga Card - Desktop */}
+            <div className="hidden lg:flex bg-white rounded-[20px] p-6 flex-col items-center text-center">
               <div className="w-full h-[312px] mb-4">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/902e5ef4b13da15674d1c62eeb7b5d3be0e21787?width=830"
