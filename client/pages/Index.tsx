@@ -347,18 +347,20 @@ export default function Index() {
                 </p>
               </div>
 
-              <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] shadow-lg font-medium">
-                Entenda meu trabalho
-              </button>
+              <div className="flex justify-center md:justify-start">
+                <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] shadow-lg font-medium">
+                  Entenda meu trabalho
+                </button>
+              </div>
             </div>
 
-            {/* Right Content - Profile Photo */}
-            <div className="w-1/2 flex justify-end">
+            {/* Profile Photo */}
+            <div className="w-full md:w-1/2 flex justify-center md:justify-end">
               <div className="relative">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F8383e07c4a9b42b78712f99282959bc1?format=webp&width=800"
                   alt="Jaqueline Venancio"
-                  className="w-[578px] h-[578px] object-cover"
+                  className="w-[300px] h-[300px] md:w-[578px] md:h-[578px] object-cover"
                 />
               </div>
             </div>
@@ -401,7 +403,7 @@ export default function Index() {
             {/* Left Text */}
             <div className="space-y-6">
               <p className="text-base leading-relaxed">
-                Enquanto eu cursava nutriç��o, eu sempre via o emagrecimento e
+                Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
                 ganho muscular como consequência de um corpo saudável, e é assim
                 que eu trabalho hoje. Realizando um tratamento de dentro pra
                 fora, e ouvindo cada queixa do meu paciente, afinal somos
