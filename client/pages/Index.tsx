@@ -681,7 +681,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator to Contact */}
-        <div className="absolute bottom-0 w-full">
+        <div className="absolute -bottom-24 w-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
