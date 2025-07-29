@@ -519,7 +519,7 @@ export default function Index() {
             Serviços
           </h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="flex flex-col space-y-8 lg:grid lg:grid-cols-2 lg:gap-8 lg:space-y-0">
             {/* Atendimento Personalizado Card */}
             <div className="bg-white rounded-[20px] p-6 flex flex-col items-center text-center">
               <div className="w-full h-[312px] mb-4">
