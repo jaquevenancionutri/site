@@ -435,7 +435,7 @@ export default function Index() {
             <div className="hidden lg:block space-y-6">
               <p className="text-base leading-relaxed">
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
-                ganho muscular como consequência de um corpo saudável, e é assim
+                ganho muscular como consequência de um corpo saudável, e �� assim
                 que eu trabalho hoje. Realizando um tratamento de dentro pra
                 fora, e ouvindo cada queixa do meu paciente, afinal somos
                 humanos e cada detalhe importa, pois nossas emoções também
@@ -562,6 +562,35 @@ export default function Index() {
                   presencial, clique aqui para saber
                 </p>
                 <span className="text-sm text-gray-500  ml-2">mais</span>
+              </div>
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                alt="WhatsApp"
+                className="w-15 h-15"
+              />
+            </div>
+
+            {/* Yoga Card - Mobile */}
+            <div className="lg:hidden bg-white rounded-[20px] p-6 flex flex-col items-center text-center max-w-sm mx-auto">
+              <div className="w-full h-[202px] mb-4">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/902e5ef4b13da15674d1c62eeb7b5d3be0e21787?width=830"
+                  alt="Yoga"
+                  className="w-full h-full object-cover rounded-[20px]"
+                />
+              </div>
+              <h3 className="text-xl font-normal text-black mb-4">
+                Yoga
+              </h3>
+              <div className="flex items-end justify-center mb-6">
+                <p className="text-base text-black flex-1">
+                  Além do acompanhamento nutricional, eu também ofereço aulas
+                  de yoga relaxante, que auxilia os processos de compulsão
+                  alimentar e também ajuda a ter mais consciência corporal, e
+                  também controle emocional, as praticas podem ser online ou
+                  presencial, clique aqui para saber
+                </p>
+                <span className="text-sm text-gray-500 ml-2">mais</span>
               </div>
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
