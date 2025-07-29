@@ -448,9 +448,9 @@ export default function Index() {
               </p>
             </div>
 
-            {/* Center Image */}
-            <div className="flex justify-center">
-              <div className="w-[300px] h-[300px] lg:w-[405px] lg:h-[451px] flex justify-center items-center">
+            {/* Center Image - Hidden on mobile */}
+            <div className="hidden lg:flex justify-center">
+              <div className="w-[405px] h-[451px] flex justify-center items-center">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2Fbd71837e910b4cdab2efd801b03a906f?format=webp&width=800"
                   alt="Jaqueline Venancio"
