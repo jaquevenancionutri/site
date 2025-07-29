@@ -435,7 +435,7 @@ export default function Index() {
             <div className="hidden lg:block space-y-6">
               <p className="text-base leading-relaxed">
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
-                ganho muscular como consequência de um corpo saudável, e �� assim
+                ganho muscular como consequência de um corpo saudável, e é assim
                 que eu trabalho hoje. Realizando um tratamento de dentro pra
                 fora, e ouvindo cada queixa do meu paciente, afinal somos
                 humanos e cada detalhe importa, pois nossas emoções também
@@ -774,7 +774,7 @@ export default function Index() {
         <div className="container mx-auto px-8">
           <h2 className="text-[32px] font-normal text-black  mb-12">Contato</h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="flex flex-col space-y-8 lg:grid lg:grid-cols-2 lg:gap-12 lg:space-y-0">
             {/* Contact Form */}
             <div>
               <form onSubmit={handleSubmit} className="space-y-6">
