@@ -521,8 +521,8 @@ export default function Index() {
 
           <div className="flex flex-col space-y-8 lg:grid lg:grid-cols-2 lg:gap-8 lg:space-y-0">
             {/* Atendimento Personalizado Card */}
-            <div className="bg-white rounded-[20px] p-6 flex flex-col items-center text-center">
-              <div className="w-full h-[312px] mb-4">
+            <div className="bg-white rounded-[20px] p-6 flex flex-col items-center text-center max-w-sm mx-auto lg:max-w-none">
+              <div className="w-full h-[202px] lg:h-[312px] mb-4">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/bcb57e5c493a7f8927f593b2d5222584f8fba27c?width=830"
                   alt="Atendimento personalizado"
