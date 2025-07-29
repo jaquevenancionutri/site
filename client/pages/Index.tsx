@@ -347,7 +347,8 @@ export default function Index() {
                 </p>
               </div>
 
-              <div className="flex justify-center md:justify-start">
+              {/* Desktop Button */}
+              <div className="hidden md:flex justify-start">
                 <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] shadow-lg font-medium">
                   Entenda meu trabalho
                 </button>
@@ -363,6 +364,13 @@ export default function Index() {
                   className="w-[300px] h-[300px] md:w-[578px] md:h-[578px] object-cover"
                 />
               </div>
+            </div>
+
+            {/* Mobile Button - After photo */}
+            <div className="md:hidden flex justify-center w-full">
+              <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] shadow-lg font-medium">
+                Entenda meu trabalho
+              </button>
             </div>
           </div>
         </div>
