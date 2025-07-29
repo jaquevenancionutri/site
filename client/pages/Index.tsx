@@ -148,7 +148,10 @@ export default function Index() {
             </div>
 
             {/* Mobile Menu Icon */}
-            <div className="md:hidden absolute right-4 top-4 cursor-pointer" onClick={toggleMenu}>
+            <div
+              className="md:hidden absolute right-4 top-4 cursor-pointer"
+              onClick={toggleMenu}
+            >
               <div className="w-10 h-10 flex flex-col justify-center items-center">
                 <span className="block w-8 h-0.5 bg-white mb-1"></span>
                 <span className="block w-8 h-0.5 bg-white mb-1"></span>
@@ -594,13 +597,11 @@ export default function Index() {
                   className="w-full h-full object-cover rounded-[20px]"
                 />
               </div>
-              <h3 className="text-xl font-normal text-black mb-4">
-                Yoga
-              </h3>
+              <h3 className="text-xl font-normal text-black mb-4">Yoga</h3>
               <div className="flex items-end justify-center mb-6">
                 <p className="text-base text-black flex-1">
-                  Além do acompanhamento nutricional, eu também ofereço aulas
-                  de yoga relaxante, que auxilia os processos de compulsão
+                  Além do acompanhamento nutricional, eu também ofereço aulas de
+                  yoga relaxante, que auxilia os processos de compulsão
                   alimentar e também ajuda a ter mais consciência corporal, e
                   também controle emocional, as praticas podem ser online ou
                   presencial, clique aqui para saber
