@@ -343,11 +343,28 @@ export default function Index() {
               </div>
 
               <div className="space-y-4">
-                <h3 className="text-lg md:text-xl font-normal text-gray-600 md:text-gray-600" style={{color: '#0C0C0C', fontSize: '20px', fontFamily: 'Montserrat', fontWeight: 400, lineHeight: '160%', width: '322px', height: '128px'}} data-mobile-override="true">
+                <h3 className="md:text-xl md:font-normal md:text-gray-600" style={{
+                  color: window.innerWidth < 768 ? '#0C0C0C' : undefined,
+                  fontSize: window.innerWidth < 768 ? '20px' : undefined,
+                  fontFamily: 'Montserrat',
+                  fontWeight: 400,
+                  lineHeight: window.innerWidth < 768 ? '160%' : undefined,
+                  width: window.innerWidth < 768 ? '322px' : undefined,
+                  height: window.innerWidth < 768 ? '128px' : undefined
+                }}>
                   Descubra o poder de tratamentos naturais para desinflamação e
                   saúde da mulher!
                 </h3>
-                <p className="text-sm md:text-base leading-relaxed text-gray-800 text-justify" style={{fontFamily: 'Montserrat', fontWeight: 400, fontSize: '16px', lineHeight: '200%', textAlign: 'justify', width: '317px', height: '288px'}} data-mobile-override="true">
+                <p className="md:text-base md:leading-relaxed md:text-gray-800 md:text-justify" style={{
+                  fontFamily: 'Montserrat',
+                  fontWeight: 400,
+                  fontSize: window.innerWidth < 768 ? '16px' : undefined,
+                  lineHeight: window.innerWidth < 768 ? '200%' : undefined,
+                  textAlign: 'justify',
+                  width: window.innerWidth < 768 ? '317px' : undefined,
+                  height: window.innerWidth < 768 ? '288px' : undefined,
+                  color: window.innerWidth < 768 ? undefined : '#374151'
+                }}>
                   Olá! Eu sou a Jaqueline Venancio, nutricionista a mais de 5
                   anos, e hoje especializada em ajudar mulheres a desinflamarem
                   seus corpos, e nunca mais sentirem cólicas de um parto,
@@ -491,7 +508,7 @@ export default function Index() {
                 sentia pouco ouvida e por muitas vezes busquei sozinha a solução
                 para meus problemas, e isso não acontecia somente comigo, por
                 isso passei a me dedicar às mulheres que querem ter uma vida de
-                qualidade mas não tem apoio.
+                qualidade mas n��o tem apoio.
               </p>
               <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] font-medium">
                 Quer saber mais sobre como posso te ajudar?
