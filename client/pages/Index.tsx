@@ -343,28 +343,28 @@ export default function Index() {
               </div>
 
               <div className="space-y-4">
-                <h3 className="md:text-xl md:font-normal md:text-gray-600" style={{
-                  color: window.innerWidth < 768 ? '#0C0C0C' : undefined,
-                  fontSize: window.innerWidth < 768 ? '20px' : undefined,
-                  fontFamily: 'Montserrat',
-                  fontWeight: 400,
-                  lineHeight: window.innerWidth < 768 ? '160%' : undefined,
-                  width: window.innerWidth < 768 ? '322px' : undefined,
-                  height: window.innerWidth < 768 ? '128px' : undefined
-                }}>
-                  Descubra o poder de tratamentos naturais para desinflamação e
-                  saúde da mulher!
+                <h3 className="font-montserrat font-normal md:text-xl md:text-gray-600" style={{
+                  color: '#0C0C0C',
+                  fontSize: '20px',
+                  lineHeight: '160%',
+                  width: '322px',
+                  height: '128px'
+                }} data-mobile-style="true">
+                  <span className="md:hidden">
+                    Descubra o poder de tratamentos naturais para desinflamação e
+                    saúde da mulher!
+                  </span>
+                  <span className="hidden md:inline">
+                    Descubra o poder de tratamentos naturais para desinflamação e
+                    saúde da mulher!
+                  </span>
                 </h3>
-                <p className="md:text-base md:leading-relaxed md:text-gray-800 md:text-justify" style={{
-                  fontFamily: 'Montserrat',
-                  fontWeight: 400,
-                  fontSize: window.innerWidth < 768 ? '16px' : undefined,
-                  lineHeight: window.innerWidth < 768 ? '200%' : undefined,
-                  textAlign: 'justify',
-                  width: window.innerWidth < 768 ? '317px' : undefined,
-                  height: window.innerWidth < 768 ? '288px' : undefined,
-                  color: window.innerWidth < 768 ? undefined : '#374151'
-                }}>
+                <p className="font-montserrat font-normal text-justify md:text-base md:leading-relaxed md:text-gray-800" style={{
+                  fontSize: '16px',
+                  lineHeight: '200%',
+                  width: '317px',
+                  height: '288px'
+                }} data-mobile-style="true">
                   Olá! Eu sou a Jaqueline Venancio, nutricionista a mais de 5
                   anos, e hoje especializada em ajudar mulheres a desinflamarem
                   seus corpos, e nunca mais sentirem cólicas de um parto,
@@ -508,7 +508,7 @@ export default function Index() {
                 sentia pouco ouvida e por muitas vezes busquei sozinha a solução
                 para meus problemas, e isso não acontecia somente comigo, por
                 isso passei a me dedicar às mulheres que querem ter uma vida de
-                qualidade mas n��o tem apoio.
+                qualidade mas não tem apoio.
               </p>
               <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] font-medium">
                 Quer saber mais sobre como posso te ajudar?
@@ -618,7 +618,7 @@ export default function Index() {
               <div className="flex items-end justify-center mb-6">
                 <p className="text-base text-black flex-1">
                   Além do acompanhamento nutricional, eu também ofereço aulas de
-                  yoga relaxante, que auxilia os processos de compulsão
+                  yoga relaxante, que auxilia os processos de compuls��o
                   alimentar e também ajuda a ter mais consciência corporal, e
                   também controle emocional, as praticas podem ser online ou
                   presencial, clique aqui para saber
