@@ -149,7 +149,7 @@ export default function Index() {
 
             {/* Mobile Menu Icon */}
             <div
-              className="md:hidden absolute right-4 top-4 cursor-pointer"
+              className="md:hidden absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer z-10"
               onClick={toggleMenu}
             >
               <img
@@ -377,7 +377,7 @@ export default function Index() {
                     Olá! Eu sou a Jaqueline Venancio, nutricionista a mais de 5
                     anos, e hoje especializada em ajudar mulheres a desinflamarem
                     seus corpos, e nunca mais sentirem cólicas de um parto,
-                    sensação constante de barriga inchada, dores constantes,
+                    sensa��ão constante de barriga inchada, dores constantes,
                     fadiga mental, e outros problemas relacionados a inflamações
                     crônicas.
                   </span>
