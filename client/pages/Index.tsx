@@ -215,14 +215,14 @@ export default function Index() {
                   >
                     <div
                       style={{
-                        height: "25px",
+                        height: "40px",
                         width: "90%",
-                        marginTop: "7px",
-                        background: "#E5B179",
+                        background: "#F18C27",
                         borderRadius: 20,
                         justifyContent: "center",
                         alignItems: "center",
                         display: "flex",
+                        marginBottom: "8px"
                       }}
                     >
                       <div
@@ -249,14 +249,14 @@ export default function Index() {
                   >
                     <div
                       style={{
-                        height: "25px",
+                        height: "40px",
                         width: "90%",
-                        marginTop: "7px",
-                        background: "#E5B179",
+                        background: "#F18C27",
                         borderRadius: 20,
                         justifyContent: "center",
                         alignItems: "center",
                         display: "flex",
+                        marginBottom: "8px"
                       }}
                     >
                       <div
@@ -283,14 +283,14 @@ export default function Index() {
                   >
                     <div
                       style={{
-                        height: "25px",
+                        height: "40px",
                         width: "90%",
-                        marginTop: "7px",
-                        background: "#E5B179",
+                        background: "#F18C27",
                         borderRadius: 20,
                         justifyContent: "center",
                         alignItems: "center",
                         display: "flex",
+                        marginBottom: "8px"
                       }}
                     >
                       <div
