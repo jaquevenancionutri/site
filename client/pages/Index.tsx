@@ -321,11 +321,14 @@ export default function Index() {
             alt="Background"
             className="hidden md:block w-full h-full object-cover"
           />
-          {/* Mobile Background */}
+        </div>
+
+        {/* Mobile Background - separate container to start after header */}
+        <div className="block md:hidden absolute top-16 left-0 w-full h-[900px]">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F5d382a995f684fa49eb998a822eba4e6?format=webp&width=800"
             alt="Background"
-            className="block md:hidden w-full h-full object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
 
