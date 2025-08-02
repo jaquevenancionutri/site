@@ -343,11 +343,11 @@ export default function Index() {
               </div>
 
               <div className="space-y-4">
-                <h3 className="text-lg md:text-xl font-normal text-gray-600">
+                <h3 className="text-lg md:text-xl font-normal text-gray-600 md:text-gray-600" style={{color: '#0C0C0C', fontSize: '20px', fontFamily: 'Montserrat', fontWeight: 400, lineHeight: '160%', width: '322px', height: '128px'}} data-mobile-override="true">
                   Descubra o poder de tratamentos naturais para desinflamação e
                   saúde da mulher!
                 </h3>
-                <p className="text-sm md:text-base leading-relaxed text-gray-800 text-justify">
+                <p className="text-sm md:text-base leading-relaxed text-gray-800 text-justify" style={{fontFamily: 'Montserrat', fontWeight: 400, fontSize: '16px', lineHeight: '200%', textAlign: 'justify', width: '317px', height: '288px'}} data-mobile-override="true">
                   Olá! Eu sou a Jaqueline Venancio, nutricionista a mais de 5
                   anos, e hoje especializada em ajudar mulheres a desinflamarem
                   seus corpos, e nunca mais sentirem cólicas de um parto,
