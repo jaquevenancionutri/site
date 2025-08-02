@@ -323,7 +323,7 @@ export default function Index() {
         </div>
 
         {/* Mobile Background Image - starts exactly after header */}
-        <div className="block md:hidden absolute top-[72px] left-0 w-full h-[calc(100vh-72px)]" style={{marginTop: '-1px'}}>
+        <div className="block md:hidden absolute left-0 w-full h-[900px]" style={{top: '72px'}}>
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F5d382a995f684fa49eb998a822eba4e6?format=webp&width=800"
             alt="Background"
@@ -487,7 +487,7 @@ export default function Index() {
             <div className="hidden lg:block space-y-6">
               <p className="text-base leading-relaxed">
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
-                ganho muscular como consequência de um corpo saudável, e é assim
+                ganho muscular como consequência de um corpo saudável, e �� assim
                 que eu trabalho hoje. Realizando um tratamento de dentro pra
                 fora, e ouvindo cada queixa do meu paciente, afinal somos
                 humanos e cada detalhe importa, pois nossas emoções também
