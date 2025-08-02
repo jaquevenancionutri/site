@@ -152,11 +152,11 @@ export default function Index() {
               className="md:hidden absolute right-4 top-4 cursor-pointer"
               onClick={toggleMenu}
             >
-              <div className="w-10 h-10 flex flex-col justify-center items-center">
-                <span className="block w-8 h-0.5 bg-white mb-1"></span>
-                <span className="block w-8 h-0.5 bg-white mb-1"></span>
-                <span className="block w-8 h-0.5 bg-white"></span>
-              </div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2Ff7c538148a174d9180cfe1a80315e778?format=webp&width=800"
+                alt="Menu"
+                className="w-8 h-8"
+              />
             </div>
 
             {/* Mobile Dropdown Menu */}
@@ -181,13 +181,14 @@ export default function Index() {
                   >
                     <div
                       style={{
-                        height: "25px",
+                        height: "40px",
                         width: "90%",
-                        background: "#E5B179",
+                        background: "#F18C27",
                         borderRadius: 20,
                         justifyContent: "center",
                         alignItems: "center",
                         display: "flex",
+                        marginBottom: "8px"
                       }}
                     >
                       <div
@@ -521,7 +522,7 @@ export default function Index() {
               </p>
               <p className="text-base leading-relaxed">
                 Meu foco em mulheres se deu ao grande descaso que percebi ao
-                longo da minha própria vida quando se tratava de saúde. Me
+                longo da minha pr��pria vida quando se tratava de saúde. Me
                 sentia pouco ouvida e por muitas vezes busquei sozinha a solução
                 para meus problemas, e isso não acontecia somente comigo, por
                 isso passei a me dedicar às mulheres que querem ter uma vida de
