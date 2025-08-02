@@ -321,14 +321,11 @@ export default function Index() {
             alt="Background"
             className="hidden md:block w-full h-full object-cover"
           />
-        </div>
-
-        {/* Mobile Background - separate container to start after header */}
-        <div className="block md:hidden absolute top-16 left-0 w-full h-[900px]">
+          {/* Mobile Background */}
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F5d382a995f684fa49eb998a822eba4e6?format=webp&width=800"
             alt="Background"
-            className="w-full h-full object-cover"
+            className="block md:hidden w-full h-full object-cover"
           />
         </div>
 
@@ -346,17 +343,11 @@ export default function Index() {
               </div>
 
               <div className="space-y-4">
-                <h3 className="md:text-xl md:font-normal md:text-gray-600" style={{color: '#0C0C0C', fontSize: '20px', fontFamily: 'Montserrat', fontWeight: 400, lineHeight: '160%', width: '322px', height: '128px'}}>
-                  <span className="md:hidden">
-                    Descubra o poder de tratamentos naturais para desinflamação e
-                    saúde da mulher!
-                  </span>
-                  <span className="hidden md:inline">
-                    Descubra o poder de tratamentos naturais para desinflamação e
-                    saúde da mulher!
-                  </span>
+                <h3 className="text-lg md:text-xl font-normal text-gray-600">
+                  Descubra o poder de tratamentos naturais para desinflamação e
+                  saúde da mulher!
                 </h3>
-                <p className="md:text-base md:leading-relaxed md:text-gray-800 md:text-justify" style={{fontFamily: 'Montserrat', fontWeight: 400, fontSize: '16px', lineHeight: '200%', textAlign: 'justify', width: '317px', height: '288px'}}>
+                <p className="text-sm md:text-base leading-relaxed text-gray-800 text-justify">
                   Olá! Eu sou a Jaqueline Venancio, nutricionista a mais de 5
                   anos, e hoje especializada em ajudar mulheres a desinflamarem
                   seus corpos, e nunca mais sentirem cólicas de um parto,
