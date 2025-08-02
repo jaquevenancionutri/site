@@ -1063,7 +1063,7 @@ export default function Index() {
         </div>
 
         {/* Fixed WhatsApp Button */}
-        <div className="fixed bottom-8 right-8 z-50">
+        <div className="hidden md:block fixed bottom-8 right-8 z-50">
           <svg
             width="56"
             height="56"
