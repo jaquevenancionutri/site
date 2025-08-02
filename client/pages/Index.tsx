@@ -323,7 +323,7 @@ export default function Index() {
           />
         </div>
         {/* Mobile Background - starts after header, covers full section */}
-        <div className="block md:hidden absolute top-16 left-0 w-full h-[calc(100%-4rem)]">
+        <div className="block md:hidden absolute top-16 left-0 w-full h-[900px]">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F5d382a995f684fa49eb998a822eba4e6?format=webp&width=800"
             alt="Background"
