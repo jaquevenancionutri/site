@@ -313,19 +313,21 @@ export default function Index() {
 
       {/* Hero Section */}
       <section className="relative bg-white pb-20">
-        {/* Hero Background Image */}
-        <div className="absolute top-0 left-0 w-full h-[844px]">
-          {/* Desktop Background */}
+        {/* Desktop Background Image */}
+        <div className="hidden md:block absolute top-0 left-0 w-full h-[844px]">
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/059d82c2944f2997140de6d2d4439352eb3d64c0?width=3024"
             alt="Background"
-            className="hidden md:block w-full h-full object-cover"
+            className="w-full h-full object-cover"
           />
-          {/* Mobile Background */}
+        </div>
+
+        {/* Mobile Background Image - starts exactly after header */}
+        <div className="block md:hidden absolute top-[72px] left-0 w-full h-[800px]">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F5d382a995f684fa49eb998a822eba4e6?format=webp&width=800"
             alt="Background"
-            className="block md:hidden w-full h-full object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
 
