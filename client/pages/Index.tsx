@@ -826,8 +826,8 @@ export default function Index() {
           <h2 className="text-[32px] font-normal text-black  mb-12">Contato</h2>
 
           <div className="flex flex-col space-y-8 lg:grid lg:grid-cols-2 lg:gap-12 lg:space-y-0">
-            {/* Contact Form */}
-            <div>
+            {/* Contact Form - Second on mobile, first on desktop */}
+            <div className="order-2 lg:order-1">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label className="block text-base text-black  mb-2">
