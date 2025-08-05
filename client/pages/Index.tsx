@@ -891,7 +891,7 @@ export default function Index() {
             </div>
 
             {/* Contact Info - First on mobile, second on desktop */}
-            <div className="order-1 lg:order-2 bg-white rounded-lg p-8 space-y-8 border border-jaque-orange lg:border-0" style={{
+            <div className="order-1 lg:order-2 bg-white rounded-lg p-8 space-y-8 border border-jaque-orange lg:border-0 -mt-6 mb-12 lg:mt-0 lg:mb-0" style={{
               borderWidth: '1px',
               borderRadius: '10px'
             }}>
