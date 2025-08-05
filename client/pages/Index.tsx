@@ -1012,14 +1012,54 @@ export default function Index() {
                     </svg>
                   </div>
                 </div>
+
+                {/* Mobile Social Media - Only visible on mobile */}
+                <div className="block md:hidden mt-6">
+                  <h4 className="text-lg font-medium text-black text-center mb-4">Redes Sociais</h4>
+                  <div className="flex justify-center space-x-6">
+                    <a
+                      href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                        alt="WhatsApp"
+                        className="w-12 h-12 hover:scale-110 transition-transform"
+                      />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/nutrijaquevenancio/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/bd0348beb0f459f88be491a3a30a548a7bd37d9f?width=120"
+                        alt="Instagram"
+                        className="w-12 h-12 hover:scale-110 transition-transform"
+                      />
+                    </a>
+                    <a
+                      href="https://www.youtube.com/@Nutrijaquevenancio"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/533aa04f9297eb4251dd0f6dffff772ffee89e2c?width=120"
+                        alt="YouTube"
+                        className="w-12 h-12 hover:scale-110 transition-transform"
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-jaque-purple py-12">
+      {/* Footer - Hidden on mobile */}
+      <footer className="hidden md:block bg-jaque-purple py-12">
         <div className="container mx-auto px-8">
           <div className="flex items-center space-x-12">
             <h3 className="text-[32px] font-normal text-white ">
