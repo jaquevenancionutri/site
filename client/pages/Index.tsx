@@ -890,8 +890,8 @@ export default function Index() {
               </form>
             </div>
 
-            {/* Contact Info */}
-            <div className="bg-white rounded-lg p-8 space-y-8">
+            {/* Contact Info - First on mobile, second on desktop */}
+            <div className="order-1 lg:order-2 bg-white rounded-lg p-8 space-y-8">
               <div className="flex flex-col items-center text-center space-y-2">
                 <svg
                   width="30"
