@@ -820,7 +820,7 @@ export default function Index() {
       {/* Contact Section */}
       <section
         id="reach-me"
-        className="relative mt-24 bg-jaque-gray pt-4 pb-20"
+        className="relative mt-0 md:mt-24 bg-jaque-gray pt-4 pb-20"
       >
         <div className="container mx-auto px-8">
           <h2 className="text-[32px] font-normal text-black  mb-6 lg:mb-12">Contato</h2>
