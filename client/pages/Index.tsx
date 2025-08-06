@@ -884,7 +884,7 @@ export default function Index() {
                 {/* Mobile Button */}
                 <button
                   type="submit"
-                  className="block md:hidden mx-auto rounded-[20px]"
+                  className="block md:hidden mx-auto rounded-[20px] flex items-center justify-center"
                   style={{
                     width: '167px',
                     height: '52px',
@@ -898,12 +898,7 @@ export default function Index() {
                     fontWeight: 400,
                     fontSize: '16px',
                     lineHeight: '200%',
-                    color: 'white',
-                    width: '147px',
-                    height: '32px',
-                    position: 'relative',
-                    top: '10px',
-                    left: '10px'
+                    color: 'white'
                   }}>
                     Enviar mensagem
                   </span>
