@@ -883,7 +883,14 @@ export default function Index() {
                 </div>
                 <button
                   type="submit"
-                  className="bg-jaque-orange text-white px-6 py-3 rounded-[20px] font-medium "
+                  className="bg-jaque-orange text-white px-6 py-3 rounded-[20px] font-medium mx-auto block md:mx-0 md:inline-block"
+                  style={{
+                    width: window.innerWidth < 768 ? '167px' : undefined,
+                    height: window.innerWidth < 768 ? '52px' : undefined,
+                    borderRadius: '20px',
+                    padding: window.innerWidth < 768 ? '10px' : undefined,
+                    gap: window.innerWidth < 768 ? '10px' : undefined
+                  }}
                 >
                   Enviar mensagem
                 </button>
