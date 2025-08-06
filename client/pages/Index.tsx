@@ -808,8 +808,8 @@ export default function Index() {
           </div>
 
           {/* Mobile - Avaliar centered and below */}
-          <div className="block md:hidden flex justify-center mt-6">
-            <button className="bg-jaque-orange text-white px-8 py-2 rounded-[20px] font-medium ">
+          <div className="block md:hidden flex justify-center mt-10">
+            <button className="bg-jaque-orange text-white px-12 py-3 rounded-[20px] font-medium text-lg">
               Avaliar
             </button>
           </div>
