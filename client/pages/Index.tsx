@@ -790,10 +790,25 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 items-center justify-center mt-8">
+          {/* Desktop - Both buttons side by side */}
+          <div className="hidden md:flex space-x-4">
             <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
               Ver mais
             </button>
+            <button className="bg-jaque-orange text-white px-8 py-2 rounded-[20px] font-medium ">
+              Avaliar
+            </button>
+          </div>
+
+          {/* Mobile - Ver mais in original position */}
+          <div className="block md:hidden">
+            <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
+              Ver mais
+            </button>
+          </div>
+
+          {/* Mobile - Avaliar centered and below */}
+          <div className="block md:hidden flex justify-center mt-6">
             <button className="bg-jaque-orange text-white px-8 py-2 rounded-[20px] font-medium ">
               Avaliar
             </button>
