@@ -881,19 +881,40 @@ export default function Index() {
                     className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white  resize-none"
                   />
                 </div>
+                {/* Mobile Button */}
                 <button
                   type="submit"
-                  className="bg-jaque-orange text-white font-medium rounded-[20px] mx-auto block md:mx-0 md:inline-block md:px-6 md:py-3"
+                  className="block md:hidden mx-auto rounded-[20px]"
                   style={{
                     width: '167px',
                     height: '52px',
+                    background: '#535353',
                     padding: '10px',
                     gap: '10px'
                   }}
-                  data-mobile-only="true"
                 >
-                  <span className="block md:hidden">Enviar mensagem</span>
-                  <span className="hidden md:inline">Enviar mensagem</span>
+                  <span style={{
+                    fontFamily: 'Montserrat',
+                    fontWeight: 400,
+                    fontSize: '16px',
+                    lineHeight: '200%',
+                    color: 'white',
+                    width: '147px',
+                    height: '32px',
+                    position: 'relative',
+                    top: '10px',
+                    left: '10px'
+                  }}>
+                    Enviar mensagem
+                  </span>
+                </button>
+
+                {/* Desktop Button */}
+                <button
+                  type="submit"
+                  className="hidden md:block bg-jaque-orange text-white px-6 py-3 rounded-[20px] font-medium"
+                >
+                  Enviar mensagem
                 </button>
               </form>
             </div>
