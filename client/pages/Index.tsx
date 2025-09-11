@@ -313,7 +313,7 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-white pb-20">
+      <section className="relative bg-white">
         {/* Desktop Background Image */}
         <div className="hidden md:block absolute top-0 left-0 w-full h-[844px]">
           <img
@@ -326,12 +326,11 @@ export default function Index() {
         {/* Mobile Background Image - starts exactly after header */}
         <div
           className="block md:hidden absolute left-0 w-full h-[900px]"
-          style={{ top: "72px" }}
         >
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F5d382a995f684fa49eb998a822eba4e6?format=webp&width=800"
             alt="Background"
-            className="w-full h-full object-cover"
+            className="w-full object-cover"
           />
         </div>
 
@@ -386,7 +385,7 @@ export default function Index() {
                     Olá! Eu sou a Jaqueline Venancio, nutricionista a mais de 5
                     anos, e hoje especializada em ajudar mulheres a
                     desinflamarem seus corpos, e nunca mais sentirem cólicas de
-                    um parto, sensa��ão constante de barriga inchada, dores
+                    um parto, sensação constante de barriga inchada, dores
                     constantes, fadiga mental, e outros problemas relacionados a
                     inflamações crônicas.
                   </span>
@@ -497,7 +496,7 @@ export default function Index() {
             <div className="hidden lg:block space-y-6">
               <p className="text-base leading-relaxed">
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
-                ganho muscular como consequência de um corpo saudável, e ��
+                ganho muscular como consequência de um corpo saudável, e é
                 assim que eu trabalho hoje. Realizando um tratamento de dentro
                 pra fora, e ouvindo cada queixa do meu paciente, afinal somos
                 humanos e cada detalhe importa, pois nossas emoções também
@@ -531,7 +530,7 @@ export default function Index() {
               </p>
               <p className="text-base leading-relaxed">
                 Meu foco em mulheres se deu ao grande descaso que percebi ao
-                longo da minha pr��pria vida quando se tratava de saúde. Me
+                longo da minha própria vida quando se tratava de saúde. Me
                 sentia pouco ouvida e por muitas vezes busquei sozinha a solução
                 para meus problemas, e isso não acontecia somente comigo, por
                 isso passei a me dedicar às mulheres que querem ter uma vida de
@@ -617,7 +616,7 @@ export default function Index() {
               <h3 className="text-xl font-normal text-black  mb-4">Yoga</h3>
               <div className="flex items-end justify-center mb-6">
                 <p className="text-base text-black  flex-1">
-                  Além do acompanhamento nutricional, eu tamb��m ofereço aulas
+                  Além do acompanhamento nutricional, eu também ofereço aulas
                   de yoga relaxante, que auxilia os processos de compulsão
                   alimentar e também ajuda a ter mais consciência corporal, e
                   também controle emocional, as praticas podem ser online ou
@@ -793,7 +792,7 @@ export default function Index() {
               </div>
               <p className="text-base text-black  leading-relaxed">
                 Minha melhor nutricionista! Comprometida com a qualidade da
-                alimentaç��o dos pacientes.Não passa dietas malucas. Tudo fácil
+                alimentação dos pacientes.Não passa dietas malucas. Tudo fácil
                 de cumprir.
               </p>
             </div>
