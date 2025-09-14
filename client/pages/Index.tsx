@@ -454,9 +454,8 @@ export default function Index() {
       {/* About Section */}
       <section
         id="about-me"
-        className="relative bg-jaque-purple text-white pt-4 pb-20"
-        style={{ marginTop: "4rem" }}
-      >
+        className="relative bg-jaque-purple text-white pt-4 pb-20 mt-16 md:mt-24"
+              >
         <div className="container mx-auto px-8">
           <div className="mb-12">
             <h2 className="text-[32px] font-normal mb-8">Sobre</h2>
