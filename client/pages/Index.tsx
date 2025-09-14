@@ -353,7 +353,7 @@ export default function Index() {
                     className="block md:hidden mx-auto text-left"
                     style={{
                       color: "#0C0C0C",
-                      fontSize: "20px",
+                      fontSize: "22px",
                       fontFamily: "Montserrat",
                       fontWeight: 400,
                       lineHeight: "160%",
@@ -377,7 +377,7 @@ export default function Index() {
                     style={{
                       fontFamily: "Montserrat",
                       fontWeight: 400,
-                      fontSize: "16px",
+                      fontSize: "17px",
                       lineHeight: "200%",
                       textAlign: "justify",
                       width: "100%",
@@ -500,7 +500,7 @@ export default function Index() {
             <div className="hidden lg:block space-y-6">
               <p className="text-base leading-relaxed">
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
-                ganho muscular como consequência de um corpo saudável, e é
+                ganho muscular como consequência de um corpo saudável, e ��
                 assim que eu trabalho hoje. Realizando um tratamento de dentro
                 pra fora, e ouvindo cada queixa do meu paciente, afinal somos
                 humanos e cada detalhe importa, pois nossas emoções também
