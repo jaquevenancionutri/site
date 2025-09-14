@@ -338,11 +338,11 @@ export default function Index() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
             {/* Content */}
             <div className="w-full md:w-1/2 space-y-6">
-              <div className="space-y-2">
-                <h1 className="text-[28px] md:text-[32px] font-normal text-gray-800 text-center md:text-left">
+              <div className="space-y-2 mx-auto md:mx-0 w-[322px] md:w-auto">
+                <h1 className="text-[28px] md:text-[32px] font-normal text-gray-800 text-left">
                   Nutricionista
                 </h1>
-                <h2 className="text-[28px] md:text-[32px] font-normal text-gray-700 text-center md:text-left">
+                <h2 className="text-[28px] md:text-[32px] font-normal text-gray-700 text-left">
                   Jaqueline Venancio
                 </h2>
               </div>
@@ -350,7 +350,7 @@ export default function Index() {
               <div className="space-y-4">
                 <h3>
                   <span
-                    className="block md:hidden text-center mx-auto"
+                    className="block md:hidden mx-auto text-left"
                     style={{
                       color: "#0C0C0C",
                       fontSize: "20px",
@@ -359,6 +359,7 @@ export default function Index() {
                       lineHeight: "160%",
                       width: "322px",
                       height: "128px",
+                      textAlign: "left",
                     }}
                   >
                     Descubra o poder de tratamentos naturais para desinflamação
@@ -371,13 +372,13 @@ export default function Index() {
                 </h3>
                 <p>
                   <span
-                    className="block md:hidden text-center mx-auto"
+                    className="block md:hidden mx-auto"
                     style={{
                       fontFamily: "Montserrat",
                       fontWeight: 400,
                       fontSize: "16px",
                       lineHeight: "200%",
-                      textAlign: "center",
+                      textAlign: "justify",
                       width: "317px",
                       height: "288px",
                     }}
