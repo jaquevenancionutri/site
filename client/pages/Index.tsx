@@ -152,11 +152,19 @@ export default function Index() {
               className="md:hidden absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer z-10"
               onClick={toggleMenu}
             >
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2Ff7c538148a174d9180cfe1a80315e778?format=webp&width=800"
-                alt="Menu"
-                className="w-8 h-8"
-              />
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-10 h-10"
+              >
+                <path
+                  d="M5 30V26.6667H35V30H5ZM5 21.6667V18.3333H35V21.6667H5ZM5 13.3333V10H35V13.3333H5Z"
+                  fill="white"
+                />
+              </svg>
             </div>
 
             {/* Mobile Dropdown Menu */}
