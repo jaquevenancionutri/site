@@ -324,9 +324,7 @@ export default function Index() {
         </div>
 
         {/* Mobile Background Image - starts exactly after header */}
-        <div
-          className="block md:hidden absolute left-0 w-full h-[900px]"
-        >
+        <div className="block md:hidden absolute left-0 w-full h-[900px]">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F5d382a995f684fa49eb998a822eba4e6?format=webp&width=800"
             alt="Background"
@@ -457,7 +455,7 @@ export default function Index() {
       <section
         id="about-me"
         className="relative bg-jaque-purple text-white pt-4 pb-20"
-        style={{marginTop: '4rem'}}
+        style={{ marginTop: "4rem" }}
       >
         <div className="container mx-auto px-8">
           <div className="mb-12">
@@ -555,7 +553,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator to Services */}
-        <div className="absolute w-full" style={{bottom: '-1rem'}}>
+        <div className="absolute w-full" style={{ bottom: "-1rem" }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
@@ -577,7 +575,7 @@ export default function Index() {
         className="relative pt-4 pb-20"
         style={{
           background: "linear-gradient(180deg, #F18C27 0%, #440F4C 62.06%)",
-          bottom: '-1rem' 
+          bottom: "-1rem",
         }}
       >
         <div className="container mx-auto px-8">
@@ -621,8 +619,8 @@ export default function Index() {
               <h3 className="text-xl font-normal text-black  mb-4">Yoga</h3>
               <div className="flex items-end justify-center mb-6">
                 <p className="text-base text-black  flex-1">
-                  Além do acompanhamento nutricional, eu também ofereço aulas
-                  de yoga relaxante, que auxilia os processos de compulsão
+                  Além do acompanhamento nutricional, eu também ofereço aulas de
+                  yoga relaxante, que auxilia os processos de compulsão
                   alimentar e também ajuda a ter mais consciência corporal, e
                   também controle emocional, as praticas podem ser online ou
                   presencial, clique aqui para saber
@@ -666,7 +664,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator to Testimonials */}
-        <div className="absolute w-full" style={{bottom: '-1rem'}}>
+        <div className="absolute w-full" style={{ bottom: "-1rem" }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
@@ -687,7 +685,7 @@ export default function Index() {
         id="ratings"
         className="relative bg-jaque-beige pt-4 pb-20"
         style={{
-          bottom: '-2rem' 
+          bottom: "-2rem",
         }}
       >
         <div className="container mx-auto px-8">
