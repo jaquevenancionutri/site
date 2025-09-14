@@ -188,7 +188,7 @@ export default function Index() {
                         justifyContent: "center",
                         alignItems: "center",
                         display: "flex",
-                        marginBottom: "8px"
+                        marginBottom: "8px",
                       }}
                     >
                       <div
@@ -222,7 +222,7 @@ export default function Index() {
                         justifyContent: "center",
                         alignItems: "center",
                         display: "flex",
-                        marginBottom: "8px"
+                        marginBottom: "8px",
                       }}
                     >
                       <div
@@ -256,7 +256,7 @@ export default function Index() {
                         justifyContent: "center",
                         alignItems: "center",
                         display: "flex",
-                        marginBottom: "8px"
+                        marginBottom: "8px",
                       }}
                     >
                       <div
@@ -290,7 +290,7 @@ export default function Index() {
                         justifyContent: "center",
                         alignItems: "center",
                         display: "flex",
-                        marginBottom: "8px"
+                        marginBottom: "8px",
                       }}
                     >
                       <div
@@ -313,7 +313,7 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-white pb-20">
+      <section className="relative bg-white">
         {/* Desktop Background Image */}
         <div className="hidden md:block absolute top-0 left-0 w-full h-[844px]">
           <img
@@ -324,11 +324,13 @@ export default function Index() {
         </div>
 
         {/* Mobile Background Image - starts exactly after header */}
-        <div className="block md:hidden absolute left-0 w-full h-[900px]" style={{top: '72px'}}>
+        <div
+          className="block md:hidden absolute left-0 w-full h-[900px]"
+        >
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fe5e3909c842b45ce9dfd2852340172fe%2F5d382a995f684fa49eb998a822eba4e6?format=webp&width=800"
             alt="Background"
-            className="w-full h-full object-cover"
+            className="w-full object-cover"
           />
         </div>
 
@@ -347,47 +349,53 @@ export default function Index() {
 
               <div className="space-y-4">
                 <h3>
-                  <span className="block md:hidden" style={{
-                    color: '#0C0C0C',
-                    fontSize: '20px',
-                    fontFamily: 'Montserrat',
-                    fontWeight: 400,
-                    lineHeight: '160%',
-                    width: '322px',
-                    height: '128px'
-                  }}>
-                    Descubra o poder de tratamentos naturais para desinflamação e
-                    saúde da mulher!
+                  <span
+                    className="block md:hidden"
+                    style={{
+                      color: "#0C0C0C",
+                      fontSize: "20px",
+                      fontFamily: "Montserrat",
+                      fontWeight: 400,
+                      lineHeight: "160%",
+                      width: "322px",
+                      height: "128px",
+                    }}
+                  >
+                    Descubra o poder de tratamentos naturais para desinflamação
+                    e saúde da mulher!
                   </span>
                   <span className="hidden md:block text-lg md:text-xl font-normal text-gray-600">
-                    Descubra o poder de tratamentos naturais para desinflamação e
-                    saúde da mulher!
+                    Descubra o poder de tratamentos naturais para desinflamação
+                    e saúde da mulher!
                   </span>
                 </h3>
                 <p>
-                  <span className="block md:hidden" style={{
-                    fontFamily: 'Montserrat',
-                    fontWeight: 400,
-                    fontSize: '16px',
-                    lineHeight: '200%',
-                    textAlign: 'justify',
-                    width: '317px',
-                    height: '288px'
-                  }}>
+                  <span
+                    className="block md:hidden"
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: 400,
+                      fontSize: "16px",
+                      lineHeight: "200%",
+                      textAlign: "justify",
+                      width: "317px",
+                      height: "288px",
+                    }}
+                  >
                     Olá! Eu sou a Jaqueline Venancio, nutricionista a mais de 5
-                    anos, e hoje especializada em ajudar mulheres a desinflamarem
-                    seus corpos, e nunca mais sentirem cólicas de um parto,
-                    sensa��ão constante de barriga inchada, dores constantes,
-                    fadiga mental, e outros problemas relacionados a inflamações
-                    crônicas.
+                    anos, e hoje especializada em ajudar mulheres a
+                    desinflamarem seus corpos, e nunca mais sentirem cólicas de
+                    um parto, sensação constante de barriga inchada, dores
+                    constantes, fadiga mental, e outros problemas relacionados a
+                    inflamações crônicas.
                   </span>
                   <span className="hidden md:block text-sm md:text-base leading-relaxed text-gray-800 text-justify">
                     Olá! Eu sou a Jaqueline Venancio, nutricionista a mais de 5
-                    anos, e hoje especializada em ajudar mulheres a desinflamarem
-                    seus corpos, e nunca mais sentirem cólicas de um parto,
-                    sensação constante de barriga inchada, dores constantes,
-                    fadiga mental, e outros problemas relacionados a inflamações
-                    crônicas.
+                    anos, e hoje especializada em ajudar mulheres a
+                    desinflamarem seus corpos, e nunca mais sentirem cólicas de
+                    um parto, sensação constante de barriga inchada, dores
+                    constantes, fadiga mental, e outros problemas relacionados a
+                    inflamações crônicas.
                   </span>
                 </p>
               </div>
@@ -445,7 +453,8 @@ export default function Index() {
       {/* About Section */}
       <section
         id="about-me"
-        className="relative mt-24 bg-jaque-purple text-white pt-4 pb-20"
+        className="relative bg-jaque-purple text-white pt-4 pb-20"
+        style={{marginTop: '4rem'}}
       >
         <div className="container mx-auto px-8">
           <div className="mb-12">
@@ -488,9 +497,9 @@ export default function Index() {
             <div className="hidden lg:block space-y-6">
               <p className="text-base leading-relaxed">
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
-                ganho muscular como consequência de um corpo saudável, e �� assim
-                que eu trabalho hoje. Realizando um tratamento de dentro pra
-                fora, e ouvindo cada queixa do meu paciente, afinal somos
+                ganho muscular como consequência de um corpo saudável, e é
+                assim que eu trabalho hoje. Realizando um tratamento de dentro
+                pra fora, e ouvindo cada queixa do meu paciente, afinal somos
                 humanos e cada detalhe importa, pois nossas emoções também
                 influenciam em como comemos e nos comportamos.
               </p>
@@ -522,7 +531,7 @@ export default function Index() {
               </p>
               <p className="text-base leading-relaxed">
                 Meu foco em mulheres se deu ao grande descaso que percebi ao
-                longo da minha pr��pria vida quando se tratava de saúde. Me
+                longo da minha própria vida quando se tratava de saúde. Me
                 sentia pouco ouvida e por muitas vezes busquei sozinha a solução
                 para meus problemas, e isso não acontecia somente comigo, por
                 isso passei a me dedicar às mulheres que querem ter uma vida de
@@ -543,7 +552,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator to Services */}
-        <div className="absolute -bottom-24 w-full">
+        <div className="absolute w-full" style={{bottom: '-1rem'}}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
@@ -562,9 +571,10 @@ export default function Index() {
       {/* Services Section */}
       <section
         id="services-tab"
-        className="relative mt-24 pt-4 pb-20"
+        className="relative pt-4 pb-20"
         style={{
           background: "linear-gradient(180deg, #F18C27 0%, #440F4C 62.06%)",
+          bottom: '-1rem' 
         }}
       >
         <div className="container mx-auto px-8">
@@ -608,7 +618,7 @@ export default function Index() {
               <h3 className="text-xl font-normal text-black  mb-4">Yoga</h3>
               <div className="flex items-end justify-center mb-6">
                 <p className="text-base text-black  flex-1">
-                  Além do acompanhamento nutricional, eu tamb��m ofereço aulas
+                  Além do acompanhamento nutricional, eu também ofereço aulas
                   de yoga relaxante, que auxilia os processos de compulsão
                   alimentar e também ajuda a ter mais consciência corporal, e
                   também controle emocional, as praticas podem ser online ou
@@ -653,7 +663,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator to Testimonials */}
-        <div className="absolute -bottom-24 w-full">
+        <div className="absolute w-full" style={{bottom: '-1rem'}}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
@@ -672,7 +682,10 @@ export default function Index() {
       {/* Testimonials Section */}
       <section
         id="ratings"
-        className="relative mt-24 bg-jaque-beige pt-4 pb-20"
+        className="relative bg-jaque-beige pt-4 pb-20"
+        style={{
+          bottom: '-2rem' 
+        }}
       >
         <div className="container mx-auto px-8">
           <h2 className="text-[32px] font-normal text-black  mb-4">
@@ -784,13 +797,14 @@ export default function Index() {
               </div>
               <p className="text-base text-black  leading-relaxed">
                 Minha melhor nutricionista! Comprometida com a qualidade da
-                alimentaç��o dos pacientes.Não passa dietas malucas. Tudo fácil
+                alimentação dos pacientes.Não passa dietas malucas. Tudo fácil
                 de cumprir.
               </p>
             </div>
           </div>
 
-          <div className="flex space-x-4">
+          {/* Desktop - Both buttons side by side */}
+          <div className="hidden md:flex space-x-4">
             <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
               Ver mais
             </button>
@@ -798,10 +812,24 @@ export default function Index() {
               Avaliar
             </button>
           </div>
+
+          {/* Mobile - Ver mais in original position */}
+          <div className="block md:hidden">
+            <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
+              Ver mais
+            </button>
+          </div>
+
+          {/* Mobile - Avaliar centered and below */}
+          <div className="block md:hidden flex justify-center mt-10">
+            <button className="bg-jaque-orange text-white px-12 py-3 rounded-[20px] font-medium text-lg">
+              Avaliar
+            </button>
+          </div>
         </div>
 
         {/* Wave Separator to Contact */}
-        <div className="absolute -bottom-24 w-full">
+        <div className="hidden md:block absolute -bottom-24 w-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
@@ -820,10 +848,12 @@ export default function Index() {
       {/* Contact Section */}
       <section
         id="reach-me"
-        className="relative mt-24 bg-jaque-gray pt-4 pb-20"
+        className="relative mt-0 md:mt-24 bg-jaque-gray pt-4 pb-20"
       >
         <div className="container mx-auto px-8">
-          <h2 className="text-[32px] font-normal text-black  mb-6 lg:mb-12">Contato</h2>
+          <h2 className="text-[32px] font-normal text-black  mb-6 lg:mb-12">
+            Contato
+          </h2>
 
           <div className="flex flex-col space-y-16 lg:grid lg:grid-cols-2 lg:gap-12 lg:space-y-0">
             {/* Contact Form - Second on mobile, first on desktop */}
@@ -881,28 +911,49 @@ export default function Index() {
                     className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white  resize-none"
                   />
                 </div>
+                {/* Mobile Button */}
                 <button
                   type="submit"
-                  className="bg-jaque-orange text-white font-medium rounded-[20px] mx-auto block md:mx-0 md:inline-block md:px-6 md:py-3"
+                  className="block md:hidden mx-auto rounded-[20px] flex items-center justify-center"
                   style={{
-                    width: '167px',
-                    height: '52px',
-                    padding: '10px',
-                    gap: '10px'
+                    width: "167px",
+                    height: "52px",
+                    background: "#535353",
+                    padding: "10px",
+                    gap: "10px",
                   }}
-                  data-mobile-only="true"
                 >
-                  <span className="block md:hidden">Enviar mensagem</span>
-                  <span className="hidden md:inline">Enviar mensagem</span>
+                  <span
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontWeight: 400,
+                      fontSize: "16px",
+                      lineHeight: "200%",
+                      color: "white",
+                    }}
+                  >
+                    Enviar mensagem
+                  </span>
+                </button>
+
+                {/* Desktop Button */}
+                <button
+                  type="submit"
+                  className="hidden md:block bg-jaque-orange text-white px-6 py-3 rounded-[20px] font-medium"
+                >
+                  Enviar mensagem
                 </button>
               </form>
             </div>
 
             {/* Contact Info - First on mobile, second on desktop */}
-            <div className="order-1 lg:order-2 bg-white rounded-lg p-8 space-y-8 border border-jaque-orange lg:border-0 -mt-6 mb-12 lg:mt-0 lg:mb-0" style={{
-              borderWidth: '1px',
-              borderRadius: '10px'
-            }}>
+            <div
+              className="order-1 lg:order-2 bg-white rounded-lg p-8 space-y-8 border border-jaque-orange lg:border-0 -mt-6 mb-12 lg:mt-0 lg:mb-0"
+              style={{
+                borderWidth: "1px",
+                borderRadius: "10px",
+              }}
+            >
               <div className="flex flex-col items-center text-center space-y-2">
                 <svg
                   width="30"
@@ -1026,7 +1077,9 @@ export default function Index() {
 
                 {/* Mobile Social Media - Only visible on mobile */}
                 <div className="block md:hidden mt-6">
-                  <h4 className="text-lg font-medium text-black text-center mb-4">Redes Sociais</h4>
+                  <h4 className="text-lg font-medium text-black text-center mb-4">
+                    Redes Sociais
+                  </h4>
                   <div className="flex justify-center space-x-6">
                     <a
                       href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA."
