@@ -552,7 +552,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator to Services */}
-        <div className="absolute w-full" style={{ bottom: "-1rem" }}>
+        <div className="absolute w-full -bottom-4 md:-bottom-24">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
@@ -663,7 +663,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator to Testimonials */}
-        <div className="absolute w-full" style={{ bottom: "-1rem" }}>
+        <div className="absolute w-full -bottom-4 md:-bottom-24">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
