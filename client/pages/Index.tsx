@@ -497,7 +497,7 @@ export default function Index() {
             <div className="hidden lg:block space-y-6">
               <p className="text-base leading-relaxed">
                 Enquanto eu cursava nutrição, eu sempre via o emagrecimento e
-                ganho muscular como consequência de um corpo saudável, e ��
+                ganho muscular como consequência de um corpo saudável, e é
                 assim que eu trabalho hoje. Realizando um tratamento de dentro
                 pra fora, e ouvindo cada queixa do meu paciente, afinal somos
                 humanos e cada detalhe importa, pois nossas emoções também
