@@ -339,10 +339,10 @@ export default function Index() {
             {/* Content */}
             <div className="w-full md:w-1/2 space-y-6">
               <div className="space-y-2">
-                <h1 className="text-[28px] md:text-[32px] font-normal text-gray-800">
+                <h1 className="text-[28px] md:text-[32px] font-normal text-gray-800 text-center md:text-left">
                   Nutricionista
                 </h1>
-                <h2 className="text-[28px] md:text-[32px] font-normal text-gray-700">
+                <h2 className="text-[28px] md:text-[32px] font-normal text-gray-700 text-center md:text-left">
                   Jaqueline Venancio
                 </h2>
               </div>
@@ -350,7 +350,7 @@ export default function Index() {
               <div className="space-y-4">
                 <h3>
                   <span
-                    className="block md:hidden"
+                    className="block md:hidden text-center mx-auto"
                     style={{
                       color: "#0C0C0C",
                       fontSize: "20px",
@@ -371,13 +371,13 @@ export default function Index() {
                 </h3>
                 <p>
                   <span
-                    className="block md:hidden"
+                    className="block md:hidden text-center mx-auto"
                     style={{
                       fontFamily: "Montserrat",
                       fontWeight: 400,
                       fontSize: "16px",
                       lineHeight: "200%",
-                      textAlign: "justify",
+                      textAlign: "center",
                       width: "317px",
                       height: "288px",
                     }}
