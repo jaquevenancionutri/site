@@ -42,7 +42,7 @@ export default function Index() {
           />
 
           {/* Navigation centered */}
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex items-end justify-center">
+          <div className="absolute inset-0 flex items-end justify-center">
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
               <a href="#about-me" style={{ textDecoration: "none" }}>
