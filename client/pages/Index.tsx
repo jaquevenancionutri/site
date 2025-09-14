@@ -338,7 +338,7 @@ export default function Index() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
             {/* Content */}
             <div className="w-full md:w-1/2 space-y-6">
-              <div className="space-y-2 mx-auto md:mx-0 w-[322px] md:w-auto">
+              <div className="space-y-2 mx-auto md:mx-0 w-full max-w-[360px] md:w-auto md:max-w-none">
                 <h1 className="text-[28px] md:text-[32px] font-normal text-gray-800 text-left">
                   Nutricionista
                 </h1>
@@ -357,7 +357,8 @@ export default function Index() {
                       fontFamily: "Montserrat",
                       fontWeight: 400,
                       lineHeight: "160%",
-                      width: "322px",
+                      width: "100%",
+                      maxWidth: "360px",
                       height: "128px",
                       textAlign: "left",
                     }}
@@ -379,7 +380,8 @@ export default function Index() {
                       fontSize: "16px",
                       lineHeight: "200%",
                       textAlign: "justify",
-                      width: "317px",
+                      width: "100%",
+                      maxWidth: "360px",
                       height: "288px",
                     }}
                   >
