@@ -453,7 +453,8 @@ export default function Index() {
       {/* About Section */}
       <section
         id="about-me"
-        className="relative mt-24 bg-jaque-purple text-white pt-4 pb-20"
+        className="relative bg-jaque-purple text-white pt-4 pb-20"
+        style={{marginTop: '4rem'}}
       >
         <div className="container mx-auto px-8">
           <div className="mb-12">
@@ -551,7 +552,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator to Services */}
-        <div className="absolute -bottom-24 w-full">
+        <div className="absolute w-full" style={{bottom: '-1rem'}}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
@@ -570,9 +571,10 @@ export default function Index() {
       {/* Services Section */}
       <section
         id="services-tab"
-        className="relative mt-24 pt-4 pb-20"
+        className="relative pt-4 pb-20"
         style={{
           background: "linear-gradient(180deg, #F18C27 0%, #440F4C 62.06%)",
+          bottom: '-1rem' 
         }}
       >
         <div className="container mx-auto px-8">
@@ -661,7 +663,7 @@ export default function Index() {
         </div>
 
         {/* Wave Separator to Testimonials */}
-        <div className="absolute -bottom-24 w-full">
+        <div className="absolute w-full" style={{bottom: '-1rem'}}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
@@ -680,7 +682,10 @@ export default function Index() {
       {/* Testimonials Section */}
       <section
         id="ratings"
-        className="relative mt-24 bg-jaque-beige pt-4 pb-20"
+        className="relative bg-jaque-beige pt-4 pb-20"
+        style={{
+          bottom: '-2rem' 
+        }}
       >
         <div className="container mx-auto px-8">
           <h2 className="text-[32px] font-normal text-black  mb-4">
