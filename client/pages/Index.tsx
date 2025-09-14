@@ -170,11 +170,11 @@ export default function Index() {
             {/* Mobile Dropdown Menu */}
             {isMenuOpen && (
               <div
-                className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden"
+                className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden flex items-center justify-center"
                 onClick={toggleMenu}
               >
                 <div
-                  className="absolute top-20 right-4 bg-white rounded-lg p-4 shadow-lg min-w-[200px]"
+                  className="bg-white rounded-lg p-4 shadow-lg min-w-[200px]"
                   onClick={(e) => e.stopPropagation()}
                 >
                   <a
