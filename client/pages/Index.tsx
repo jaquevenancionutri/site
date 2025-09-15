@@ -632,7 +632,7 @@ export default function Index() {
                   onClick={() => setIsYogaTextExpanded(!isYogaTextExpanded)}
                   className="text-sm text-gray-500 ml-2 cursor-pointer hover:text-gray-700"
                 >
-                  {isYogaTextExpanded ? "menos" : "mais"}
+                  {isYogaTextExpanded ? "ver menos" : "ver mais"}
                 </button>
               </div>
               <img
@@ -660,7 +660,7 @@ export default function Index() {
                   onClick={() => setIsYogaTextExpanded(!isYogaTextExpanded)}
                   className="text-sm text-gray-500 ml-2 cursor-pointer hover:text-gray-700"
                 >
-                  {isYogaTextExpanded ? "menos" : "mais"}
+                  {isYogaTextExpanded ? "ver menos" : "ver mais"}
                 </button>
               </div>
               <img
