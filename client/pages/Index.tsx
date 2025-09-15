@@ -625,8 +625,12 @@ export default function Index() {
               </div>
               <h3 className="text-xl font-normal text-black  mb-4">Yoga</h3>
               <div className="flex items-end justify-center mb-6">
-                <p className={`text-base text-black flex-1 ${isYogaTextExpanded ? '' : 'clamp-2'}`}>
-                  {"Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber mais sobre"}
+                <p
+                  className={`text-base text-black flex-1 ${isYogaTextExpanded ? "" : "clamp-2"}`}
+                >
+                  {
+                    "Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber mais sobre"
+                  }
                 </p>
                 <button
                   onClick={() => setIsYogaTextExpanded(!isYogaTextExpanded)}
@@ -653,8 +657,12 @@ export default function Index() {
               </div>
               <h3 className="text-xl font-normal text-black mb-4">Yoga</h3>
               <div className="flex items-end justify-center mb-6">
-                <p className={`text-base text-black flex-1 ${isYogaTextExpanded ? '' : 'clamp-2'}`}>
-                  {"Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber mais sobre"}
+                <p
+                  className={`text-base text-black flex-1 ${isYogaTextExpanded ? "" : "clamp-2"}`}
+                >
+                  {
+                    "Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber mais sobre"
+                  }
                 </p>
                 <button
                   onClick={() => setIsYogaTextExpanded(!isYogaTextExpanded)}
