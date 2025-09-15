@@ -9,6 +9,7 @@ export default function Index() {
   });
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isYogaTextExpanded, setIsYogaTextExpanded] = useState(false);
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
@@ -624,14 +625,17 @@ export default function Index() {
               </div>
               <h3 className="text-xl font-normal text-black  mb-4">Yoga</h3>
               <div className="flex items-end justify-center mb-6">
-                <p className="text-base text-black  flex-1">
-                  Além do acompanhamento nutricional, eu também ofereço aulas de
-                  yoga relaxante, que auxilia os processos de compulsão
-                  alimentar e também ajuda a ter mais consciência corporal, e
-                  também controle emocional, as praticas podem ser online ou
-                  presencial, clique aqui para saber
+                <p className="text-base text-black flex-1">
+                  {isYogaTextExpanded
+                    ? "Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber mais sobre"
+                    : "Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal..."}
                 </p>
-                <span className="text-sm text-gray-500  ml-2">mais</span>
+                <button
+                  onClick={() => setIsYogaTextExpanded(!isYogaTextExpanded)}
+                  className="text-sm text-gray-500 ml-2 cursor-pointer hover:text-gray-700"
+                >
+                  {isYogaTextExpanded ? "menos" : "mais"}
+                </button>
               </div>
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
@@ -652,13 +656,16 @@ export default function Index() {
               <h3 className="text-xl font-normal text-black mb-4">Yoga</h3>
               <div className="flex items-end justify-center mb-6">
                 <p className="text-base text-black flex-1">
-                  Além do acompanhamento nutricional, eu também ofereço aulas de
-                  yoga relaxante, que auxilia os processos de compulsão
-                  alimentar e também ajuda a ter mais consciência corporal, e
-                  também controle emocional, as praticas podem ser online ou
-                  presencial, clique aqui para saber
+                  {isYogaTextExpanded
+                    ? "Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber mais sobre"
+                    : "Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal..."}
                 </p>
-                <span className="text-sm text-gray-500 ml-2">mais</span>
+                <button
+                  onClick={() => setIsYogaTextExpanded(!isYogaTextExpanded)}
+                  className="text-sm text-gray-500 ml-2 cursor-pointer hover:text-gray-700"
+                >
+                  {isYogaTextExpanded ? "menos" : "mais"}
+                </button>
               </div>
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
