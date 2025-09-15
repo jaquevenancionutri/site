@@ -412,9 +412,11 @@ export default function Index() {
 
               {/* Desktop Button */}
               <div className="hidden md:flex justify-start">
-                <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] shadow-lg font-medium">
-                  Entenda meu trabalho
-                </button>
+                <a href="#about-me" style={{ textDecoration: "none" }}>
+                  <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] shadow-lg font-medium">
+                    Entenda meu trabalho
+                  </button>
+                </a>
               </div>
             </div>
 
@@ -431,9 +433,11 @@ export default function Index() {
 
             {/* Mobile Button - After photo */}
             <div className="md:hidden flex justify-center w-full">
-              <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] shadow-lg font-medium">
-                Entenda meu trabalho
-              </button>
+              <a href="#about-me" style={{ textDecoration: "none" }}>
+                <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] shadow-lg font-medium">
+                  Entenda meu trabalho
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -546,16 +550,20 @@ export default function Index() {
                 isso passei a me dedicar às mulheres que querem ter uma vida de
                 qualidade mas não tem apoio.
               </p>
-              <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] font-medium">
-                Quer saber mais sobre como posso te ajudar?
-              </button>
+              <a href="#services-tab" style={{ textDecoration: "none" }}>
+                <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] font-medium">
+                  Quer saber mais sobre como posso te ajudar?
+                </button>
+              </a>
             </div>
 
             {/* Mobile: Button */}
             <div className="lg:hidden flex justify-center">
-              <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] font-medium">
-                Quer saber mais sobre como posso te ajudar?
-              </button>
+              <a href="#services-tab" style={{ textDecoration: "none" }}>
+                <button className="bg-jaque-green text-white px-6 py-3 rounded-[20px] font-medium">
+                  Quer saber mais sobre como posso te ajudar?
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -713,134 +721,148 @@ export default function Index() {
 
           <div className="space-y-8 mb-12">
             {/* Testimonial 1 */}
-            <div className="space-y-4">
-              <div>
-                <h4 className="text-xl text-black  mb-2">Thais Sales</h4>
-                <div className="flex space-x-1">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      width="30"
-                      height="30"
-                      viewBox="0 0 30 30"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M15 2.5L18.8625 10.325L27.5 11.5875L21.25 17.675L22.725 26.275L15 22.2125L7.275 26.275L8.75 17.675L2.5 11.5875L11.1375 10.325L15 2.5Z"
-                        fill="#F18C27"
-                        stroke="#F18C27"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  ))}
+              <div className="space-y-4">
+              <a href="https://maps.app.goo.gl/idpNgBed67cgy6WW6" style={{ textDecoration: 'none' }} target="_blank">
+                <div>
+                  <h4 className="text-xl text-black  mb-2">Thais Sales</h4>
+                  <div className="flex space-x-1">
+                    {[...Array(5)].map((_, i) => (
+                      <svg
+                        key={i}
+                        width="30"
+                        height="30"
+                        viewBox="0 0 30 30"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15 2.5L18.8625 10.325L27.5 11.5875L21.25 17.675L22.725 26.275L15 22.2125L7.275 26.275L8.75 17.675L2.5 11.5875L11.1375 10.325L15 2.5Z"
+                          fill="#F18C27"
+                          stroke="#F18C27"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    ))}
+                  </div>
                 </div>
+                <p className="text-base text-black  leading-relaxed">
+                  A melhor nutricionista que ja fui, como pessoa a cima do peso,
+                  não é somente a comida que faz mal e a Jaque entendi disso e
+                  ajuda a entender muitas coisas, ensina qual alimentação no
+                  momento faz bem, muito obrigada pelo ótimo atendimento. Perfeita
+                  e indico sempre!
+                </p>
+              </a>
               </div>
-              <p className="text-base text-black  leading-relaxed">
-                A melhor nutricionista que ja fui, como pessoa a cima do peso,
-                não é somente a comida que faz mal e a Jaque entendi disso e
-                ajuda a entender muitas coisas, ensina qual alimentação no
-                momento faz bem, muito obrigada pelo ótimo atendimento. Perfeita
-                e indico sempre!
-              </p>
-            </div>
 
             {/* Testimonial 2 */}
-            <div className="space-y-4">
-              <div>
-                <h4 className="text-xl text-black  mb-2">
-                  Oliveira Domingos Aguiar
-                </h4>
-                <div className="flex space-x-1">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      width="30"
-                      height="30"
-                      viewBox="0 0 30 30"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M15 2.5L18.8625 10.325L27.5 11.5875L21.25 17.675L22.725 26.275L15 22.2125L7.275 26.275L8.75 17.675L2.5 11.5875L11.1375 10.325L15 2.5Z"
-                        fill="#F18C27"
-                        stroke="#F18C27"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  ))}
-                </div>
+              <div className="space-y-4">
+              <a href="https://maps.app.goo.gl/e7nztnVq3XJfKaNQ9" style={{ textDecoration: 'none' }} target="_blank">
+                  <div>
+                      <h4 className="text-xl text-black  mb-2">
+                        Oliveira Domingos Aguiar
+                      </h4>
+                      <div className="flex space-x-1">
+                        {[...Array(5)].map((_, i) => (
+                          <svg
+                            key={i}
+                            width="30"
+                            height="30"
+                            viewBox="0 0 30 30"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M15 2.5L18.8625 10.325L27.5 11.5875L21.25 17.675L22.725 26.275L15 22.2125L7.275 26.275L8.75 17.675L2.5 11.5875L11.1375 10.325L15 2.5Z"
+                              fill="#F18C27"
+                              stroke="#F18C27"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        ))}
+                      </div>
+                  </div>
+                  <p className="text-base text-black  leading-relaxed">
+                    Nutricionista top! Me ajudou em meu propósito sem fazer dietas
+                    mirabolantes ou cortes extremos de alimentação. Ela acompanha de
+                    perto e tira todas às dúvidas de forma simples e de fácil
+                    compreensão.
+                  </p>
+                </a>
               </div>
-              <p className="text-base text-black  leading-relaxed">
-                Nutricionista top! Me ajudou em meu propósito sem fazer dietas
-                mirabolantes ou cortes extremos de alimentação. Ela acompanha de
-                perto e tira todas às dúvidas de forma simples e de fácil
-                compreensão.
-              </p>
-            </div>
 
             {/* Testimonial 3 */}
-            <div className="space-y-4">
-              <div>
-                <h4 className="text-xl text-black  mb-2">
-                  Thais Miranda De Oliveira
-                </h4>
-                <div className="flex space-x-1">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      width="30"
-                      height="30"
-                      viewBox="0 0 30 30"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M15 2.5L18.8625 10.325L27.5 11.5875L21.25 17.675L22.725 26.275L15 22.2125L7.275 26.275L8.75 17.675L2.5 11.5875L11.1375 10.325L15 2.5Z"
-                        fill="#F18C27"
-                        stroke="#F18C27"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  ))}
-                </div>
+              <div className="space-y-4">
+                <a href="https://maps.app.goo.gl/CLK8BoZZ5k53uSvM9" style={{ textDecoration: 'none' }} target="_blank">
+                  <div>
+                    <h4 className="text-xl text-black  mb-2">
+                      Thais Miranda De Oliveira
+                    </h4>
+                    <div className="flex space-x-1">
+                      {[...Array(5)].map((_, i) => (
+                        <svg
+                          key={i}
+                          width="30"
+                          height="30"
+                          viewBox="0 0 30 30"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15 2.5L18.8625 10.325L27.5 11.5875L21.25 17.675L22.725 26.275L15 22.2125L7.275 26.275L8.75 17.675L2.5 11.5875L11.1375 10.325L15 2.5Z"
+                            fill="#F18C27"
+                            stroke="#F18C27"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                      ))}
+                    </div>
+                  </div>
+                  <p className="text-base text-black  leading-relaxed">
+                    Minha melhor nutricionista! Comprometida com a qualidade da
+                    alimentação dos pacientes.Não passa dietas malucas. Tudo fácil
+                    de cumprir.
+                  </p>
+                </a>
               </div>
-              <p className="text-base text-black  leading-relaxed">
-                Minha melhor nutricionista! Comprometida com a qualidade da
-                alimentação dos pacientes.Não passa dietas malucas. Tudo fácil
-                de cumprir.
-              </p>
-            </div>
           </div>
 
           {/* Desktop - Both buttons side by side */}
           <div className="hidden md:flex space-x-4">
-            <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
-              Ver mais
-            </button>
-            <button className="bg-jaque-orange text-white px-8 py-2 rounded-[20px] font-medium ">
-              Avaliar
-            </button>
+            <a href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" style={{ textDecoration: "none" }} target="_blank">
+              <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
+                Ver mais
+              </button>
+            </a>
+            <a href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" style={{ textDecoration: "none" }} target="_blank">
+              <button className="bg-jaque-orange text-white px-8 py-2 rounded-[20px] font-medium ">
+                Avaliar
+              </button>
+            </a>
           </div>
 
           {/* Mobile - Ver mais in original position */}
           <div className="block md:hidden">
-            <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
-              Ver mais
-            </button>
+            <a href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" style={{ textDecoration: "none" }} target="_blank">
+              <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
+                Ver mais
+              </button>
+            </a>
           </div>
 
           {/* Mobile - Avaliar centered and below */}
           <div className="block md:hidden flex justify-center mt-10">
-            <button className="bg-jaque-orange text-white px-12 py-3 rounded-[20px] font-medium text-lg">
-              Avaliar
-            </button>
+            <a href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" style={{ textDecoration: "none" }} target="_blank">
+              <button className="bg-jaque-orange text-white px-12 py-3 rounded-[20px] font-medium text-lg">
+                Avaliar
+              </button>
+            </a>
           </div>
         </div>
 
@@ -1060,11 +1082,13 @@ export default function Index() {
 
                 {/* Map */}
                 <div className="w-full h-48 bg-gray-300 rounded-lg relative overflow-hidden border-2 border-jaque-orange">
-                  <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/e39a9455988d3bf13f77e1d106f03d8bfa40ecdb?width=980"
-                    alt="Map"
-                    className="w-full h-full object-cover"
-                  />
+                  <a href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.0143757,-48.0682555,18z/data=!4m6!3m5!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!16s%2Fg%2F11y3108kst?entry=ttu" target="_blank">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/e39a9455988d3bf13f77e1d106f03d8bfa40ecdb?width=980"
+                      alt="Map"
+                      className="w-full h-full object-cover"
+                    />
+                  </a>
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <svg
                       width="30"
