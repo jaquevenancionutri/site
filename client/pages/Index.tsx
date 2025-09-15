@@ -615,11 +615,13 @@ export default function Index() {
                 Você pode ter meu acompanhamento nutricional ou tirar suas
                 dúvidas a respeito clicando aqui:
               </p>
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
-                alt="WhatsApp"
-                className="w-15 h-15"
-              />
+              <a href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                  alt="WhatsApp"
+                  className="w-15 h-15"
+                />
+              </a>
             </div>
 
             {/* Yoga Card - Desktop */}
@@ -647,11 +649,13 @@ export default function Index() {
                   {isYogaTextExpanded ? "ver menos" : "ver mais"}
                 </button>
               </div>
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
-                alt="WhatsApp"
-                className="w-15 h-15"
-              />
+              <a href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                  alt="WhatsApp"
+                  className="w-15 h-15"
+                />
+              </a>
             </div>
 
             {/* Yoga Card - Mobile */}
@@ -679,11 +683,13 @@ export default function Index() {
                   {isYogaTextExpanded ? "ver menos" : "ver mais"}
                 </button>
               </div>
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
-                alt="WhatsApp"
-                className="w-15 h-15"
-              />
+              <a href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                  alt="WhatsApp"
+                  className="w-15 h-15"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -1209,6 +1215,7 @@ export default function Index() {
 
         {/* Fixed WhatsApp Button */}
         <div className="hidden md:block fixed bottom-8 right-8 z-50">
+        <a href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">
           <svg
             width="56"
             height="56"
@@ -1235,6 +1242,7 @@ export default function Index() {
               </clipPath>
             </defs>
           </svg>
+          </a>
         </div>
       </footer>
     </div>
