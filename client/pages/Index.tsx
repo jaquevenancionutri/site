@@ -624,9 +624,9 @@ export default function Index() {
                 />
               </div>
               <h3 className="text-xl font-normal text-black  mb-4">Yoga</h3>
-              <div className="flex items-end justify-center mb-6">
+              <div className="w-full mb-6">
                 <p
-                  className={`text-base text-black flex-1 ${isYogaTextExpanded ? "" : "clamp-2"}`}
+                  className={`text-base text-black w-full text-left ${isYogaTextExpanded ? "" : "clamp-2"}`}
                 >
                   {
                     "Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber mais sobre"
@@ -634,7 +634,7 @@ export default function Index() {
                 </p>
                 <button
                   onClick={() => setIsYogaTextExpanded(!isYogaTextExpanded)}
-                  className="text-sm text-gray-500 ml-2 cursor-pointer hover:text-gray-700"
+                  className="block w-full text-right text-sm text-gray-500 mt-2 cursor-pointer hover:text-gray-700"
                 >
                   {isYogaTextExpanded ? "ver menos" : "ver mais"}
                 </button>
@@ -656,9 +656,9 @@ export default function Index() {
                 />
               </div>
               <h3 className="text-xl font-normal text-black mb-4">Yoga</h3>
-              <div className="flex items-end justify-center mb-6">
+              <div className="w-full mb-6">
                 <p
-                  className={`text-base text-black flex-1 ${isYogaTextExpanded ? "" : "clamp-2"}`}
+                  className={`text-base text-black w-full text-left ${isYogaTextExpanded ? "" : "clamp-2"}`}
                 >
                   {
                     "Além do acompanhamento nutricional, eu também ofereço aulas de yoga relaxante, que auxilia os processos de compulsão alimentar e também ajuda a ter mais consciência corporal, e também controle emocional, as praticas podem ser online ou presencial, clique aqui para saber mais sobre"
@@ -666,7 +666,7 @@ export default function Index() {
                 </p>
                 <button
                   onClick={() => setIsYogaTextExpanded(!isYogaTextExpanded)}
-                  className="text-sm text-gray-500 ml-2 cursor-pointer hover:text-gray-700"
+                  className="block w-full text-right text-sm text-gray-500 mt-2 cursor-pointer hover:text-gray-700"
                 >
                   {isYogaTextExpanded ? "ver menos" : "ver mais"}
                 </button>
