@@ -955,6 +955,7 @@ export default function Index() {
                     value={formData.phone}
                     onChange={handleInputChange}
                     placeholder="Digite seu telefone"
+                    maxLength={16}
                     className="w-full p-3 rounded-lg border border-jaque-orange bg-jaque-beige text-white placeholder-white "
                   />
                 </div>
