@@ -17,8 +17,7 @@ export default function Index() {
     const digits = value.replace(/\D/g, "").slice(0, 11);
     if (digits.length === 0) return "";
     if (digits.length <= 2) return `(${digits}`;
-    if (digits.length <= 3)
-      return `(${digits.slice(0, 2)}) ${digits.slice(2)}`;
+    if (digits.length <= 3) return `(${digits.slice(0, 2)}) ${digits.slice(2)}`;
     if (digits.length <= 7)
       return `(${digits.slice(0, 2)}) ${digits.slice(2, 3)} ${digits.slice(3)}`;
     return `(${digits.slice(0, 2)}) ${digits.slice(2, 3)} ${digits.slice(3, 7)}-${digits.slice(7)}`;
@@ -38,7 +37,9 @@ export default function Index() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const { name, phone, email, message } = formData;
-    const hasEmpty = [name, phone, email, message].some((v) => !v || v.trim() === "");
+    const hasEmpty = [name, phone, email, message].some(
+      (v) => !v || v.trim() === "",
+    );
 
     if (hasEmpty) {
       toast({
@@ -644,7 +645,11 @@ export default function Index() {
                 Você pode ter meu acompanhamento nutricional ou tirar suas
                 dúvidas a respeito clicando aqui:
               </p>
-              <a href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
                   alt="WhatsApp"
@@ -678,7 +683,11 @@ export default function Index() {
                   {isYogaTextExpanded ? "ver menos" : "ver mais"}
                 </button>
               </div>
-              <a href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
                   alt="WhatsApp"
@@ -712,7 +721,11 @@ export default function Index() {
                   {isYogaTextExpanded ? "ver menos" : "ver mais"}
                 </button>
               </div>
-              <a href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
                   alt="WhatsApp"
@@ -756,8 +769,12 @@ export default function Index() {
 
           <div className="space-y-8 mb-12">
             {/* Testimonial 1 */}
-              <div className="space-y-4">
-              <a href="https://maps.app.goo.gl/idpNgBed67cgy6WW6" style={{ textDecoration: 'none' }} target="_blank">
+            <div className="space-y-4">
+              <a
+                href="https://maps.app.goo.gl/idpNgBed67cgy6WW6"
+                style={{ textDecoration: "none" }}
+                target="_blank"
+              >
                 <div>
                   <h4 className="text-xl text-black  mb-2">Thais Sales</h4>
                   <div className="flex space-x-1">
@@ -786,96 +803,112 @@ export default function Index() {
                   A melhor nutricionista que ja fui, como pessoa a cima do peso,
                   não é somente a comida que faz mal e a Jaque entendi disso e
                   ajuda a entender muitas coisas, ensina qual alimentação no
-                  momento faz bem, muito obrigada pelo ótimo atendimento. Perfeita
-                  e indico sempre!
+                  momento faz bem, muito obrigada pelo ótimo atendimento.
+                  Perfeita e indico sempre!
                 </p>
               </a>
-              </div>
+            </div>
 
             {/* Testimonial 2 */}
-              <div className="space-y-4">
-              <a href="https://maps.app.goo.gl/e7nztnVq3XJfKaNQ9" style={{ textDecoration: 'none' }} target="_blank">
-                  <div>
-                      <h4 className="text-xl text-black  mb-2">
-                        Oliveira Domingos Aguiar
-                      </h4>
-                      <div className="flex space-x-1">
-                        {[...Array(5)].map((_, i) => (
-                          <svg
-                            key={i}
-                            width="30"
-                            height="30"
-                            viewBox="0 0 30 30"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M15 2.5L18.8625 10.325L27.5 11.5875L21.25 17.675L22.725 26.275L15 22.2125L7.275 26.275L8.75 17.675L2.5 11.5875L11.1375 10.325L15 2.5Z"
-                              fill="#F18C27"
-                              stroke="#F18C27"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                        ))}
-                      </div>
+            <div className="space-y-4">
+              <a
+                href="https://maps.app.goo.gl/e7nztnVq3XJfKaNQ9"
+                style={{ textDecoration: "none" }}
+                target="_blank"
+              >
+                <div>
+                  <h4 className="text-xl text-black  mb-2">
+                    Oliveira Domingos Aguiar
+                  </h4>
+                  <div className="flex space-x-1">
+                    {[...Array(5)].map((_, i) => (
+                      <svg
+                        key={i}
+                        width="30"
+                        height="30"
+                        viewBox="0 0 30 30"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15 2.5L18.8625 10.325L27.5 11.5875L21.25 17.675L22.725 26.275L15 22.2125L7.275 26.275L8.75 17.675L2.5 11.5875L11.1375 10.325L15 2.5Z"
+                          fill="#F18C27"
+                          stroke="#F18C27"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    ))}
                   </div>
-                  <p className="text-base text-black  leading-relaxed">
-                    Nutricionista top! Me ajudou em meu propósito sem fazer dietas
-                    mirabolantes ou cortes extremos de alimentação. Ela acompanha de
-                    perto e tira todas às dúvidas de forma simples e de fácil
-                    compreensão.
-                  </p>
-                </a>
-              </div>
+                </div>
+                <p className="text-base text-black  leading-relaxed">
+                  Nutricionista top! Me ajudou em meu propósito sem fazer dietas
+                  mirabolantes ou cortes extremos de alimentação. Ela acompanha
+                  de perto e tira todas às dúvidas de forma simples e de fácil
+                  compreensão.
+                </p>
+              </a>
+            </div>
 
             {/* Testimonial 3 */}
-              <div className="space-y-4">
-                <a href="https://maps.app.goo.gl/CLK8BoZZ5k53uSvM9" style={{ textDecoration: 'none' }} target="_blank">
-                  <div>
-                    <h4 className="text-xl text-black  mb-2">
-                      Thais Miranda De Oliveira
-                    </h4>
-                    <div className="flex space-x-1">
-                      {[...Array(5)].map((_, i) => (
-                        <svg
-                          key={i}
-                          width="30"
-                          height="30"
-                          viewBox="0 0 30 30"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M15 2.5L18.8625 10.325L27.5 11.5875L21.25 17.675L22.725 26.275L15 22.2125L7.275 26.275L8.75 17.675L2.5 11.5875L11.1375 10.325L15 2.5Z"
-                            fill="#F18C27"
-                            stroke="#F18C27"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      ))}
-                    </div>
+            <div className="space-y-4">
+              <a
+                href="https://maps.app.goo.gl/CLK8BoZZ5k53uSvM9"
+                style={{ textDecoration: "none" }}
+                target="_blank"
+              >
+                <div>
+                  <h4 className="text-xl text-black  mb-2">
+                    Thais Miranda De Oliveira
+                  </h4>
+                  <div className="flex space-x-1">
+                    {[...Array(5)].map((_, i) => (
+                      <svg
+                        key={i}
+                        width="30"
+                        height="30"
+                        viewBox="0 0 30 30"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15 2.5L18.8625 10.325L27.5 11.5875L21.25 17.675L22.725 26.275L15 22.2125L7.275 26.275L8.75 17.675L2.5 11.5875L11.1375 10.325L15 2.5Z"
+                          fill="#F18C27"
+                          stroke="#F18C27"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    ))}
                   </div>
-                  <p className="text-base text-black  leading-relaxed">
-                    Minha melhor nutricionista! Comprometida com a qualidade da
-                    alimentação dos pacientes.Não passa dietas malucas. Tudo fácil
-                    de cumprir.
-                  </p>
-                </a>
-              </div>
+                </div>
+                <p className="text-base text-black  leading-relaxed">
+                  Minha melhor nutricionista! Comprometida com a qualidade da
+                  alimentação dos pacientes.Não passa dietas malucas. Tudo fácil
+                  de cumprir.
+                </p>
+              </a>
+            </div>
           </div>
 
           {/* Desktop - Both buttons side by side */}
           <div className="hidden md:flex space-x-4">
-            <a href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" style={{ textDecoration: "none" }} target="_blank">
+            <a
+              href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D"
+              style={{ textDecoration: "none" }}
+              target="_blank"
+            >
               <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
                 Ver mais
               </button>
             </a>
-            <a href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" style={{ textDecoration: "none" }} target="_blank">
+            <a
+              href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D"
+              style={{ textDecoration: "none" }}
+              target="_blank"
+            >
               <button className="bg-jaque-orange text-white px-8 py-2 rounded-[20px] font-medium ">
                 Avaliar
               </button>
@@ -884,7 +917,11 @@ export default function Index() {
 
           {/* Mobile - Ver mais in original position */}
           <div className="block md:hidden">
-            <a href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" style={{ textDecoration: "none" }} target="_blank">
+            <a
+              href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D"
+              style={{ textDecoration: "none" }}
+              target="_blank"
+            >
               <button className="bg-jaque-green text-black px-6 py-2 rounded-[20px] font-medium ">
                 Ver mais
               </button>
@@ -893,7 +930,11 @@ export default function Index() {
 
           {/* Mobile - Avaliar centered and below */}
           <div className="block md:hidden flex justify-center mt-10">
-            <a href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D" style={{ textDecoration: "none" }} target="_blank">
+            <a
+              href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.013842,-48.0679176,15z/data=!4m8!3m7!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!9m1!1b1!16s%2Fg%2F11y3108kst?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D"
+              style={{ textDecoration: "none" }}
+              target="_blank"
+            >
               <button className="bg-jaque-orange text-white px-12 py-3 rounded-[20px] font-medium text-lg">
                 Avaliar
               </button>
@@ -1118,7 +1159,10 @@ export default function Index() {
 
                 {/* Map */}
                 <div className="w-full h-48 bg-gray-300 rounded-lg relative overflow-hidden border-2 border-jaque-orange">
-                  <a href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.0143757,-48.0682555,18z/data=!4m6!3m5!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!16s%2Fg%2F11y3108kst?entry=ttu" target="_blank">
+                  <a
+                    href="https://www.google.com/maps/place/Nutricionista+Jaque+Venancio/@-16.0143757,-48.0682555,18z/data=!4m6!3m5!1s0x935a3b7f39507c87:0x2c2754da3cef3518!8m2!3d-16.0142339!4d-48.0685613!16s%2Fg%2F11y3108kst?entry=ttu"
+                    target="_blank"
+                  >
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/e39a9455988d3bf13f77e1d106f03d8bfa40ecdb?width=980"
                       alt="Map"
@@ -1245,33 +1289,37 @@ export default function Index() {
 
         {/* Fixed WhatsApp Button */}
         <div className="hidden md:block fixed bottom-8 right-8 z-50">
-        <a href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">
-          <svg
-            width="56"
-            height="56"
-            viewBox="0 0 56 56"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="cursor-pointer hover:scale-110 transition-transform"
+          <a
+            href="https://wa.me/5561981956980?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20um%20acompanhamento%20com%20voc%C3%AA."
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <g clipPath="url(#clip0_248_615)">
-              <path
-                d="M53.3427 28.4929C53.1626 42.2021 41.5961 53.1655 27.5083 52.9804C22.3114 52.9121 13.5 48.6862 13.5 48.6862L3 52.9804L7.39497 43C7.39497 43 2.2515 33.5075 2.32619 27.8226C2.50632 14.1135 14.0728 3.15006 28.1606 3.33516C42.2484 3.52026 53.5229 14.7838 53.3427 28.4929Z"
-                fill="white"
-              />
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M47.8405 8.13168C42.577 2.8905 35.5765 0.00265915 28.1176 0C12.7479 0 0.239316 12.4382 0.233968 27.727C0.231294 32.6144 1.51612 37.3849 3.95607 41.5891L0 55.9592L14.7814 52.1034C18.8538 54.3132 23.4396 55.4765 28.1056 55.4779H28.1176C43.4846 55.4779 55.9947 43.0383 56 27.7495C56.0026 20.3399 53.1054 13.3742 47.8405 8.13301V8.13168ZM28.1176 50.7951H28.1083C23.9503 50.7939 19.8713 49.6822 16.3123 47.5828L15.466 47.083L6.69418 49.3711L9.0352 40.8658L8.48436 39.9936C6.16473 36.324 4.93873 32.0826 4.94141 27.7284C4.94676 15.0216 15.343 4.68276 28.1271 4.68276C34.3171 4.68542 40.1357 7.08531 44.5114 11.4423C48.8874 15.798 51.2952 21.5897 51.2926 27.7469C51.2871 40.4551 40.891 50.7939 28.1176 50.7939V50.7951ZM40.8294 33.5346C40.1329 33.1876 36.7077 31.5122 36.0685 31.281C35.4295 31.0495 34.9656 30.934 34.5016 31.6279C34.0377 32.3221 32.7021 33.8829 32.2957 34.3442C31.8892 34.8069 31.4827 34.8642 30.7862 34.517C30.0897 34.1701 27.8449 33.4388 25.183 31.0788C23.1121 29.2413 21.7135 26.9731 21.3072 26.279C20.9008 25.585 21.2644 25.2101 21.612 24.8657C21.9248 24.5546 22.3085 24.056 22.6574 23.6518C23.0065 23.2476 23.1215 22.9578 23.354 22.4964C23.5867 22.0337 23.4704 21.6296 23.2966 21.2825C23.1227 20.9355 21.7297 17.5251 21.1481 16.1384C20.5825 14.7875 20.0077 14.971 19.5812 14.9484C19.1747 14.9285 18.7108 14.9245 18.2456 14.9245C17.7803 14.9245 17.0262 15.0973 16.3872 15.7914C15.7481 16.4853 13.9485 18.1619 13.9485 21.571C13.9485 24.98 16.4447 28.2761 16.7936 28.7388C17.1425 29.2015 21.7068 36.1991 28.6952 39.2012C30.3571 39.9152 31.6552 40.342 32.6673 40.6611C34.3359 41.1889 35.8546 41.1145 37.0552 40.9363C38.3936 40.7369 41.1771 39.2597 41.7573 37.6416C42.3376 36.0235 42.3376 34.6354 42.1638 34.3469C41.99 34.0584 41.5248 33.8842 40.8282 33.5372L40.8294 33.5346Z"
-                fill="#25D366"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0_248_615">
-                <rect width="56" height="56" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
+            <svg
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="cursor-pointer hover:scale-110 transition-transform"
+            >
+              <g clipPath="url(#clip0_248_615)">
+                <path
+                  d="M53.3427 28.4929C53.1626 42.2021 41.5961 53.1655 27.5083 52.9804C22.3114 52.9121 13.5 48.6862 13.5 48.6862L3 52.9804L7.39497 43C7.39497 43 2.2515 33.5075 2.32619 27.8226C2.50632 14.1135 14.0728 3.15006 28.1606 3.33516C42.2484 3.52026 53.5229 14.7838 53.3427 28.4929Z"
+                  fill="white"
+                />
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M47.8405 8.13168C42.577 2.8905 35.5765 0.00265915 28.1176 0C12.7479 0 0.239316 12.4382 0.233968 27.727C0.231294 32.6144 1.51612 37.3849 3.95607 41.5891L0 55.9592L14.7814 52.1034C18.8538 54.3132 23.4396 55.4765 28.1056 55.4779H28.1176C43.4846 55.4779 55.9947 43.0383 56 27.7495C56.0026 20.3399 53.1054 13.3742 47.8405 8.13301V8.13168ZM28.1176 50.7951H28.1083C23.9503 50.7939 19.8713 49.6822 16.3123 47.5828L15.466 47.083L6.69418 49.3711L9.0352 40.8658L8.48436 39.9936C6.16473 36.324 4.93873 32.0826 4.94141 27.7284C4.94676 15.0216 15.343 4.68276 28.1271 4.68276C34.3171 4.68542 40.1357 7.08531 44.5114 11.4423C48.8874 15.798 51.2952 21.5897 51.2926 27.7469C51.2871 40.4551 40.891 50.7939 28.1176 50.7939V50.7951ZM40.8294 33.5346C40.1329 33.1876 36.7077 31.5122 36.0685 31.281C35.4295 31.0495 34.9656 30.934 34.5016 31.6279C34.0377 32.3221 32.7021 33.8829 32.2957 34.3442C31.8892 34.8069 31.4827 34.8642 30.7862 34.517C30.0897 34.1701 27.8449 33.4388 25.183 31.0788C23.1121 29.2413 21.7135 26.9731 21.3072 26.279C20.9008 25.585 21.2644 25.2101 21.612 24.8657C21.9248 24.5546 22.3085 24.056 22.6574 23.6518C23.0065 23.2476 23.1215 22.9578 23.354 22.4964C23.5867 22.0337 23.4704 21.6296 23.2966 21.2825C23.1227 20.9355 21.7297 17.5251 21.1481 16.1384C20.5825 14.7875 20.0077 14.971 19.5812 14.9484C19.1747 14.9285 18.7108 14.9245 18.2456 14.9245C17.7803 14.9245 17.0262 15.0973 16.3872 15.7914C15.7481 16.4853 13.9485 18.1619 13.9485 21.571C13.9485 24.98 16.4447 28.2761 16.7936 28.7388C17.1425 29.2015 21.7068 36.1991 28.6952 39.2012C30.3571 39.9152 31.6552 40.342 32.6673 40.6611C34.3359 41.1889 35.8546 41.1145 37.0552 40.9363C38.3936 40.7369 41.1771 39.2597 41.7573 37.6416C42.3376 36.0235 42.3376 34.6354 42.1638 34.3469C41.99 34.0584 41.5248 33.8842 40.8282 33.5372L40.8294 33.5346Z"
+                  fill="#25D366"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_248_615">
+                  <rect width="56" height="56" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
           </a>
         </div>
       </footer>
