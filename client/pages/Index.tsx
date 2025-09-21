@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { toast } from "@/components/ui/use-toast";
+
 export default function Index() {
   const [formData, setFormData] = useState({
     name: "",
@@ -22,8 +24,22 @@ export default function Index() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log("Form submitted:", formData);
+    const { name, phone, email, message } = formData;
+    const hasEmpty = [name, phone, email, message].some((v) => !v || v.trim() === "");
+
+    if (hasEmpty) {
+      toast({
+        description: "Todos os campos devem ser preenchidos.",
+        duration: 4000,
+      });
+      return;
+    }
+
+    toast({
+      description: "O link foi gerado com sucesso.",
+      duration: 4000,
+      className: "bg-green-600 text-white border-green-600",
+    });
   };
 
   const toggleMenu = () => {
