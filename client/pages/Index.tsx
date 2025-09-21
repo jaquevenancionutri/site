@@ -13,13 +13,26 @@ export default function Index() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isYogaTextExpanded, setIsYogaTextExpanded] = useState(false);
 
+  const formatPhoneBR = (value: string) => {
+    const digits = value.replace(/\D/g, "").slice(0, 11);
+    if (digits.length === 0) return "";
+    if (digits.length <= 2) return `(${digits}`;
+    if (digits.length <= 3)
+      return `(${digits.slice(0, 2)}) ${digits.slice(2)}`;
+    if (digits.length <= 7)
+      return `(${digits.slice(0, 2)}) ${digits.slice(2, 3)} ${digits.slice(3)}`;
+    return `(${digits.slice(0, 2)}) ${digits.slice(2, 3)} ${digits.slice(3, 7)}-${digits.slice(7)}`;
+  };
+
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+    const { name, value } = e.target;
+    if (name === "phone") {
+      setFormData({ ...formData, phone: formatPhoneBR(value) });
+      return;
+    }
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
