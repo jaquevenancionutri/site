@@ -49,11 +49,11 @@ export default function Index() {
       return;
     }
 
-    toast({
-      description: "O link foi gerado com sucesso.",
-      duration: 4000,
-      className: "bg-green-600 text-white border-green-600",
-    });
+    const text = `Nome: ${name}\nTelefone: ${phone}\nEmail: ${email}\nMensagem: ${message}`;
+    const encoded = encodeURIComponent(text);
+    const phoneTarget = "5561981956980";
+    const url = `https://api.whatsapp.com/send/?phone=${phoneTarget}&text=${encoded}&type=phone_number&app_absent=0`;
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   const toggleMenu = () => {
