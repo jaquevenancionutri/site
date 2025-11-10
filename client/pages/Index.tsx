@@ -2,6 +2,18 @@ import { useState } from "react";
 
 import { toast } from "@/components/ui/use-toast";
 
+// TODO: Download and add these image files to public/images/
+// Then uncomment the imports below and replace the src URLs with the imported variables
+//
+// import logo from "/images/logo.png"; // 4506fd00cd3b5a7e70dce9d567768d7e7c1b0f43
+// import heroBg from "/images/hero-bg.png"; // 059d82c2944f2997140de6d2d4439352eb3d64c0
+// import serviceAtendimento from "/images/service-atendimento.png"; // bcb57e5c493a7f8927f593b2d5222584f8fba27c
+// import star from "/images/star.png"; // 16f4e517cc5c9269844a4a0a80549011e06d6c8f
+// import serviceYoga from "/images/service-yoga.png"; // 902e5ef4b13da15674d1c62eeb7b5d3be0e21787
+// import testimonialBg from "/images/testimonial-bg.png"; // e39a9455988d3bf13f77e1d106f03d8bfa40ecdb
+// import userJaqueline from "/images/user-jaqueline.png"; // bd0348beb0f459f88be491a3a30a548a7bd37d9f
+// import userMaria from "/images/user-maria.png"; // 533aa04f9297eb4251dd0f6dffff772ffee89e2c
+
 export default function Index() {
   const [formData, setFormData] = useState({
     name: "",
