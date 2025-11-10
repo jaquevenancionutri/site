@@ -5,14 +5,14 @@ import { toast } from "@/components/ui/use-toast";
 // TODO: Download and add these image files to public/images/
 // Then uncomment the imports below and replace the src URLs with the imported variables
 //
-// import logo from "/images/logo.png"; // 4506fd00cd3b5a7e70dce9d567768d7e7c1b0f43
-// import heroBg from "/images/hero-bg.png"; // 059d82c2944f2997140de6d2d4439352eb3d64c0
-// import serviceAtendimento from "/images/service-atendimento.png"; // bcb57e5c493a7f8927f593b2d5222584f8fba27c
-// import star from "/images/star.png"; // 16f4e517cc5c9269844a4a0a80549011e06d6c8f
-// import serviceYoga from "/images/service-yoga.png"; // 902e5ef4b13da15674d1c62eeb7b5d3be0e21787
-// import testimonialBg from "/images/testimonial-bg.png"; // e39a9455988d3bf13f77e1d106f03d8bfa40ecdb
-// import userJaqueline from "/images/user-jaqueline.png"; // bd0348beb0f459f88be491a3a30a548a7bd37d9f
-// import userMaria from "/images/user-maria.png"; // 533aa04f9297eb4251dd0f6dffff772ffee89e2c
+import logo from "/images/logo.png";
+import heroBg from "/images/hero-bg.png";
+import serviceAtendimento from "/images/service-atendimento.png";
+import serviceYoga from "/images/service-yoga.png";
+import whatsappIcon from "/images/whatsapp-icon.png";
+import locationImage from "/images/location.png";
+import instagramIcon from "/images/instagram-icon.png";
+import youtubeIcon from "/images/youtube-icon.png";
 
 export default function Index() {
   const [formData, setFormData] = useState({
@@ -79,7 +79,7 @@ export default function Index() {
         <div className="relative w-full h-full">
           {/* Logo - Absolutely positioned */}
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/4506fd00cd3b5a7e70dce9d567768d7e7c1b0f43?width=510"
+            src={logo}
             alt="Jaque Venancio Logo"
             className="absolute left-[5%] top-0 w-24 h-16 md:w-48 md:h-[157px] object-contain"
           />
@@ -368,7 +368,7 @@ export default function Index() {
         {/* Desktop Background Image */}
         <div className="hidden md:block absolute top-0 left-0 w-full h-[844px]">
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/059d82c2944f2997140de6d2d4439352eb3d64c0?width=3024"
+            src={heroBg}
             alt="Background"
             className="w-full h-full object-cover"
           />
@@ -645,7 +645,7 @@ export default function Index() {
             <div className="bg-white rounded-[20px] p-6 flex flex-col items-center text-center max-w-sm mx-auto lg:max-w-[415px]">
               <div className="w-full h-[202px] lg:h-[312px] mb-4">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/bcb57e5c493a7f8927f593b2d5222584f8fba27c?width=830"
+                  src={serviceAtendimento}
                   alt="Atendimento personalizado"
                   className="w-full h-full object-cover rounded-[20px] border border-white"
                 />
@@ -663,7 +663,7 @@ export default function Index() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                  src={whatsappIcon}
                   alt="WhatsApp"
                   className="w-15 h-15"
                 />
@@ -674,7 +674,7 @@ export default function Index() {
             <div className="hidden lg:flex bg-white rounded-[20px] p-6 flex-col items-center text-center mx-auto lg:max-w-[415px]">
               <div className="w-full h-[312px] mb-4">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/902e5ef4b13da15674d1c62eeb7b5d3be0e21787?width=830"
+                  src={serviceYoga}
                   alt="Yoga"
                   className="w-full h-full object-cover rounded-[20px]"
                 />
@@ -701,7 +701,7 @@ export default function Index() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                  src={whatsappIcon}
                   alt="WhatsApp"
                   className="w-15 h-15"
                 />
@@ -712,7 +712,7 @@ export default function Index() {
             <div className="lg:hidden bg-white rounded-[20px] p-6 flex flex-col items-center text-center max-w-sm mx-auto">
               <div className="w-full h-[202px] mb-4">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/902e5ef4b13da15674d1c62eeb7b5d3be0e21787?width=830"
+                  src={serviceYoga}
                   alt="Yoga"
                   className="w-full h-full object-cover rounded-[20px]"
                 />
@@ -739,7 +739,7 @@ export default function Index() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                  src={whatsappIcon}
                   alt="WhatsApp"
                   className="w-15 h-15"
                 />
@@ -1176,7 +1176,7 @@ export default function Index() {
                     target="_blank"
                   >
                     <img
-                      src="https://api.builder.io/api/v1/image/assets/TEMP/e39a9455988d3bf13f77e1d106f03d8bfa40ecdb?width=980"
+                      src={locationImage}
                       alt="Map"
                       className="w-full h-full object-cover"
                     />
@@ -1219,7 +1219,7 @@ export default function Index() {
                       rel="noopener noreferrer"
                     >
                       <img
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                        src={whatsappIcon}
                         alt="WhatsApp"
                         className="w-12 h-12 hover:scale-110 transition-transform"
                       />
@@ -1230,7 +1230,7 @@ export default function Index() {
                       rel="noopener noreferrer"
                     >
                       <img
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/bd0348beb0f459f88be491a3a30a548a7bd37d9f?width=120"
+                        src={instagramIcon}
                         alt="Instagram"
                         className="w-12 h-12 hover:scale-110 transition-transform"
                       />
@@ -1241,7 +1241,7 @@ export default function Index() {
                       rel="noopener noreferrer"
                     >
                       <img
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/533aa04f9297eb4251dd0f6dffff772ffee89e2c?width=120"
+                        src={youtubeIcon}
                         alt="YouTube"
                         className="w-12 h-12 hover:scale-110 transition-transform"
                       />
@@ -1268,7 +1268,7 @@ export default function Index() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/16f4e517cc5c9269844a4a0a80549011e06d6c8f?width=120"
+                  src={whatsappIcon}
                   alt="WhatsApp"
                   className="w-15 h-15 hover:scale-110 transition-transform"
                 />
@@ -1279,7 +1279,7 @@ export default function Index() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/bd0348beb0f459f88be491a3a30a548a7bd37d9f?width=120"
+                  src={instagramIcon}
                   alt="Instagram"
                   className="w-15 h-15 hover:scale-110 transition-transform"
                 />
@@ -1290,7 +1290,7 @@ export default function Index() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/533aa04f9297eb4251dd0f6dffff772ffee89e2c?width=120"
+                  src={youtubeIcon}
                   alt="YouTube"
                   className="w-15 h-15 hover:scale-110 transition-transform"
                 />
