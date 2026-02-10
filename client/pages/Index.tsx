@@ -1165,7 +1165,7 @@ export default function Index() {
                   </p>
                   <p className="text-base text-black ">
                     <span className="font-medium">Atendimento presencial:</span>{" "}
-                    Centro Clínico Life Gama, sala 519 - Setor central do gama
+                    Alternativo Center, Sala 148, Setor Central do Gama
                   </p>
                 </div>
 
